@@ -1,0 +1,339 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+/* *{
+  border: 0.1em solid red ;
+} */
+@font-face {
+  font-family: "MyFont";
+  src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf ) format('truetype');
+}
+.customfont {
+  font-family: "MyFont";
+}
+body {
+  font-family: "MyFont";
+  background-color: rgb(198, 99, 112,15%);
+  padding: 2rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+a {
+
+  color: rgb(200,0,0);
+  transition-property: color;
+  transition-duration: 0.5s;
+ }
+
+ a:hover{
+  color: rgb(44, 157, 179); 
+  transition-property: color;
+  text-decoration: none;
+ }
+ a:focus {
+  color: rgb(161, 77, 143); 
+ }
+ h1 {
+  font-weight: bold;
+  font-size: 2.3em;
+  border-top: 0.2em;
+}
+
+h2 {
+  margin-top: 6rem;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 0.7rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0;
+  width: 40vw;
+}
+
+nav a:hover, nav a:focus {
+  color: rgb(44, 157, 179); 
+  transition-property: color;
+  text-decoration: none;
+}
+
+code {
+  background-color: rgb(124, 159, 137,40%);
+
+  padding: 0.5rem;
+  display: block;
+}
+
+
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+.button-nav2 {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 0.5rem;
+  background-color: rgb(206, 168, 177);
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav2:hover, .button-nav2:focus {
+  border: 0.05rem solid;
+  color:  rgb(206, 168, 177);
+  background-color: rgb(255, 255, 255);
+}
+
+.button-nav3 {
+  display: inline-block;
+  padding: 0.3rem;
+  width: 7rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+  background-color:rgb(124, 159, 137);
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav3:hover, .button-nav3:focus {
+  border: 0.05rem solid;
+  color:rgb(124, 159, 137);
+  background-color: rgb(255, 255, 255);
+}
+.lab {
+  background: none;
+  width: 10em;
+  height: 1em;
+}
+input.lab[type="text"]:hover,input.lab[type="text"]:focus{
+  border: 0.2em solid black;
+  box-shadow: 0 0 0.3em 0.3em rgba(191, 183, 186, 0.5); 
+}
+
+
+input[type='radio'] {
+  width: 1.5em;
+  height: 1.5em;
+  border: 1em solid #747474;
+  border-radius: 50%;
+  outline: none;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+input[type='radio']:hover:before, input[type='radio']:focus:before {
+  box-shadow: 0em 0em 0em 0.5em rgba(70, 175, 68, 0.2);
+  border-radius: 50%;
+  opacity: 1;
+}
+
+input[type='radio']:before {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 20% auto;    
+  border-radius: 50%;
+}
+    
+input[type='radio']:checked:before {
+  background: rgb(124, 159, 137);
+}
+
+
+
+
+#flowerNav2 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  font-family: "MyFont";
+}
+
+
+
+
+#flowerNav2 a {
+	display:block;
+  width: 10em;
+	padding:0.4em;
+  text-align: center;
+	text-decoration:none;
+	background-color:rgb(242, 216, 170);
+	color:rgb(198, 99, 112);
+}
+
+#flowerNav2 a:hover,a:focus{
+	background-color:rgb(255, 255, 255);
+	color:rgb(198, 99, 112);
+  border:0.1em solid rgb(242, 216, 170); 
+}
+@media screen and (max-width: 450px){
+  #flowerNav2 {
+   
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      align-items: center;
+      font-family: "MyFont";
+  }
+}
+@media screen and (max-width: 900px){
+  #flowerNav2 {
+  
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      align-items: center;
+      font-family: "MyFont";
+  }
+}
+
+#flowerNav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  font-family: "MyFont";
+}
+
+
+
+
+#flowerNav a {
+	display:block;
+  width: 10em;
+	padding:0.4em;
+  text-align: center;
+	text-decoration:none;
+	background-color:rgb(242, 216, 170);
+	color:rgb(198, 99, 112);
+}
+
+#flowerNav a:hover,a:focus{
+	background-color:rgb(255, 255, 255);
+	color:rgb(198, 99, 112);
+  border:0.1em solid rgb(242, 216, 170); 
+}
+@media screen and (max-width: 450px){
+  #flowerNav {
+   
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      align-items: center;
+      font-family: "MyFont";
+  }
+}
+@media screen and (max-width: 900px){
+  #flowerNav {
+  
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      align-items: center;
+      font-family: "MyFont";
+  }
+}
+
+/* This code reference on W3schools*/
+.container {
+  position: relative;
+  
+ 
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0rem;
+  background: rgb(0, 0, 0,0.5);
+  bottom: 0rem;
+  width: 50%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 1rem;
+  height: 2rem;
+  padding: 0rem;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+/* *{
+  box-sizing: border-box;
+  border: 0.1em solid black;
+  } */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 1rem;
+  grid-column: 1;
+  width: 60em;
+ 
+
+
+}
+.grid-item {
+  padding: 0.8rem;
+  
+
+}
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
