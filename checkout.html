@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Checkout here</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="css/checkout.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 style="color: rgb(198, 99, 112);">Checkout Cart</h1>
+        <p>Here is the page you submit your order!</p>
+    </header>
+  
+        <nav>
+            <div id="flowerNav">
+                <a href="index.html">Home</a>
+                <a href="#Flowers">Flowers</a>
+                <a href="#SpecialOccasions">Special Occasions</a>
+                <a href="productlist.html">Product List</a>
+                <a href="checkout.html">Checkout Cart</a>
+                <a href="#AboutUs">About Us</a>
+
+            </div>
+
+        </nav>
+
+   
+
+
+    <section class="element">
+
+        <h3>Shopping Cart</h3>
+        <div class="direct">
+            <a href="">Remove All</a>
+        </div>
+
+
+
+       
+
+        <div class="aItem">
+            <div>
+                <img class="imgsize" alt="font" src="product2.jpeg">
+            </div>
+
+            <div>
+                <h2 class="product-name">Luxury Brand Fresh Round Bouquet</h2>
+                <div><span>$180</span></div>
+            </div>
+
+            <div>
+                <div>
+                    <label for="FlowerNumber">Flower Quality</label>
+                    <select name="flower" id="FlowerNumber">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div><span>subtotal: 180$</span></div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="aItem">
+            <div>
+                <img class="imgsize" alt="font" src="product4.jpeg">
+            </div>
+
+            <div>
+                <h2 class="product-name">Luxury Brand Fresh Round Bouquet</h2>
+                <div><span>$150</span></div>
+            </div>
+
+            <div>
+                <div>
+                    <label for="flowerNumber">Flower Quality</label>
+                    <select name="flower" id="flowerNumber">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div>subtotal: 150$</div>
+            </div>
+        </div>
+
+
+        <div class="select">
+            <div>
+                <div>
+                    <h3>Total: $380</h3>
+                </div>
+                <div>
+                    <input type="radio" name="type" id="shipping" value="F1" checked="checked" />
+                    <label for="shipping">Day Delivery</label><br>
+
+                    <input type="radio" name="type" id="pick" value="F2" />
+                    <label for="pick">Store Pickup </label><br>
+                </div>
+
+                <div>
+                    <a class="button-nav2" href="#">Submit your order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <h2 style="color: rgb(198, 99, 112);">Payment</h2>
+
+        <div class="pay">
+            <div>
+                <label>Payment Method: </label>
+
+                <input type="radio" name="paymenttype" id="visa" checked="checked" />
+                <label for="visa">Visa</label>
+
+                <input type="radio" name="paymenttype" id="paypal" />
+                <label for="paypal">Paypal</label>
+
+                <input type="radio" name="paymenttype" id="mastercard" />
+                <label for="mastercard">Mastercard</label><br>
+                <label for="card_number">Card Number:</label>
+                <input class="lab" type="text" id="card_number" name="input">
+                <label for="cvv">CVV:</label>
+                <input class="lab" type="text" id="cvv" name="input"><br>
+            </div>
+        </div>
+        <div class="contact">
+            <div>
+
+                <label for="fname">First Name: </label>
+                <input class="lab" type="text" id="fname" name="input">
+                <label for="lname">Last Name: </label>
+                <input class="lab" type="text" id="lname" name="input"><br>
+                <label for="address">Address: </label>
+                <input class="lab2" type="text" id="address" name="input"><br>
+                <label for="city">City/State: </label>
+                <input class="lab" type="text" id="city" name="input">
+                <label for="code">Postal code: </label>
+                <input class="lab" type="text" id="code" name="input">
+           
+
+            </div>
+
+        </div>
+        <div>
+            <a class="button-nav2" href="#">Confirm Your Payment</a><br>
+        </div>
+        <hr>
+
+    </section>
+</body>
+
+</html>
