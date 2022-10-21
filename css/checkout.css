@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    /* border:1px solid black; */
+}
+
 @font-face {
     font-family: "MyFont";
     src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf ) format('truetype');
@@ -181,6 +186,7 @@ a:focus {
 
 .button-nav2 {
     display: inline-block;
+    text-align: center;
     padding: 0.5rem;
     color: white;
     margin-top: 0.5rem;
@@ -189,6 +195,25 @@ a:focus {
     transition-property: background-color;
     transition-duration: 0.5s;
 }
+
+
+.button-nav3 {
+    display: inline-block;
+    /* display:inline; */
+    right: 50px;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f2d298;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 7px #999;
+    margin: 0.3rem;
+}
+
 
 .button-nav2:hover,
 .button-nav2:focus {
@@ -288,3 +313,32 @@ input[type='radio']:checked:before {
         line-height: 2em;
     }
 }
+
+.informationInput:hover , .informationInput:focus{
+    background-color: rgb(180, 178, 178);
+    
+  }
+  
+  .informationInput {
+    background-color: rgb(206, 168, 177);;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left:1rem;
+    margin-right: 2rem;
+  }
+
+
+.bankcard-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:12%;
+    height:10%;
+    margin: auto;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  
+  .bankcard-info input{
+    margin-bottom: 1rem;
+  }
