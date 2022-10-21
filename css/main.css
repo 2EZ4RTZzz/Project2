@@ -14,7 +14,7 @@
 }
 body {
   font-family: "MyFont";
-  background-color: rgb(198, 99, 112,15%);
+  background-color: rgba(209, 231, 188, 0.2);
   padding: 2rem;
 }
 
@@ -26,13 +26,14 @@ body {
 }
 a {
 
-  color: rgb(200,0,0);
+  color: rgb(65, 156, 100);
   transition-property: color;
+  text-decoration: none;
   transition-duration: 0.5s;
  }
 
  a:hover{
-  color: rgb(44, 157, 179); 
+  color: rgb(32, 72, 35); 
   transition-property: color;
   text-decoration: none;
  }
