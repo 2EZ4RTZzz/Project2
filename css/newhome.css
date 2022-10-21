@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "MyFont";
+    src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf ) format('truetype');
+}
+
+.customfont {
+    font-family: "MyFont";
+}
+
+body {
+    font-family: "MyFont";
+    background-color: rgb(198, 99, 112, 15%);
+    padding-top: 2rem;
+}
+
+.button-nav3 {
+    display: inline-block;
+    padding: 0.3rem;
+    width: 7rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    background-color: rgb(124, 159, 137);
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.button-nav3:hover,
+.button-nav3:focus {
+    border: 0.05rem solid;
+    color: rgb(124, 159, 137);
+    background-color: rgb(255, 255, 255);
+}
+
+#flowerNav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    font-family: "MyFont";
+}
+
+
+
+
+#flowerNav a {
+    display: block;
+    width: 10em;
+    padding: 0.4em;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(242, 216, 170);
+    color: rgb(198, 99, 112);
+}
+
+#flowerNav a:hover,
+a:focus {
+    background-color: rgb(255, 255, 255);
+    color: rgb(198, 99, 112);
+    border: 0.1em solid rgb(242, 216, 170);
+}
+
+.imgs {
+
+    width: 80%;
+    height: 40%;
+    margin-top: 2em;
+}
+
+.imgBox {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 2em;
+    padding:0em;
+    background-color: rgb(188, 193, 190);
+   
+}
+
+.container>div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+.container>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1.5em;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+a {
+
+    color: rgb(65, 156, 100);
+    transition-property: color;
+    text-decoration: none;
+    transition-duration: 0.5s;
+   }
+  
+   a:hover{
+    color: rgb(32, 72, 35); 
+    transition-property: color;
+    text-decoration: none;
+   }
+   a:focus {
+    color: rgb(161, 77, 143); 
+   }
