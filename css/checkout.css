@@ -342,3 +342,8 @@ input[type='radio']:checked:before {
   .bankcard-info input{
     margin-bottom: 1rem;
   }
+.pay{
+    display: flex;
+    justify-content: center;
+   
+}
