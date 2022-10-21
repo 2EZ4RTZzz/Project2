@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /* border:1px solid black; */
 }
 
 @font-face {
@@ -43,9 +44,9 @@ p{
     transition-duration: 0.5s;
 }
 
-.button-nav3:hover,
-.button-nav3:focus {
-    border: 0.05rem solid;
+.button-nav3:hover,.button-nav3:focus {
+    /* border: 0.05rem solid; */
+    border: 0rem solid;
     color: rgb(124, 159, 137);
     background-color: rgb(255, 255, 255);
 }
@@ -75,7 +76,6 @@ p{
 }
 @media screen and (max-width: 900px){
     #flowerNav {
-  
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -100,43 +100,57 @@ p{
 
 #flowerNav a:hover,
 a:focus {
+    transition: 1.5s;
     background-color: rgb(255, 255, 255);
     color: rgb(198, 99, 112);
-    border: 0.1em solid rgb(242, 216, 170);
+    /* border: 0.1em solid rgb(242, 216, 170); */
 }
 
 /* This code reference on W3schools*/
 .container {
     position: relative;
-
-
+    width:100%;
+    padding: 1rem;
+    transform:scale(0.9);
+    transition: transform 1s;
 }
-
 /* Make the image to responsive */
 .image {
     display: block;
     width: 100%;
     height: auto;
-}
+    transition: 2s;
+} 
+
+
+.image:hover{
+    transform:scale(1.1);
+    transition: transform 1s;
+    width:100%;
+} 
+
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
     position: absolute;
-    bottom: 0rem;
+    bottom: -17px;
+    /* left:px; */
     background: rgb(0, 0, 0, 0.5);
-    width: 100%;
-    transition: .5s ease;
+    width: 94%;
+    transition: 1.5s ease;
     opacity: 0;
     color: white;
     font-size: 1rem;
-    height: 2rem;
+    height: 3rem;
     padding: 0rem;
     text-align: center;
+    transform:scale(0.9);
 }
 
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
     opacity: 1;
+    transform:scale(1.1);
 }
 
 
@@ -149,17 +163,12 @@ a:focus {
     padding: 1rem;
     gap: 2rem;
     grid-column: 0.5;
-    
-   
-
 
 }
 
-.grid-item {
-    
+.grid-item {  
     padding: 0.8rem;
-   
-
+    text-align: center;
 
 }
 @media screen and (max-width: 900px) {
@@ -221,3 +230,38 @@ a:focus {
     }
 
 }
+.container-Bottom {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 2em;
+    padding:0em;
+    background-color: rgb(188, 193, 190);
+   
+}
+.container-Bottom>div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.container-Bottom>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    /* padding: 1.5em; */
+    font-size: 1.3em;
+    line-height: 2em;
+}
+a {
+    color: rgb(65, 156, 100);
+    transition-property: color;
+    text-decoration: none;
+    transition-duration: 0.5s;
+   }
+  
+   a:hover{
+    color: rgb(32, 72, 35); 
+    transition-property: color;
+    text-decoration: none;
+   }
