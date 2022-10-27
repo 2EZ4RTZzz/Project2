@@ -134,7 +134,7 @@ a:focus {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   color: white;
-  font-size: 25px;
+  font-size: 1.2em;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -147,11 +147,12 @@ a:focus {
 
 /* reference page  */
 /* https://codepen.io/bitstarr/pen/XjaJGz */
-.arrow {
-  position: relative;
-  bottom: -55rem;
+.imgBox .arrow {
+  position: absolute;
+  bottom: 0rem;
   /* bottom: 50%; */
-  right:-50%;
+  /* left: 30%; */
+  right:50%;
   /* bottom:100%; */
   /* right: 0%; */
   /* margin-left: -20px; */
