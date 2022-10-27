@@ -10,7 +10,7 @@
 
 body {
     font-family: "MyFont";
-    background-color: rgb(198, 99, 112, 15%);
+    background-color: rgb(209, 231, 188, 0.2);
     margin-bottom: 4rem;
 }
 
@@ -320,7 +320,7 @@ input[type='radio']:checked:before {
   }
   
   .informationInput {
-    background-color: rgb(206, 168, 177);;
+    background-color: rgb(169, 206, 168);;
     border-radius: 20px;
     font-size: 1rem;
     margin-left:1rem;
