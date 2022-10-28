@@ -60,15 +60,34 @@ h4 {
 }
 
 p {
-  margin-top: 0;
   width: 40vw;
 }
+.flowerNav {
+    
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
 
-nav a:hover, nav a:focus {
+}
+
+.flowerNav a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2em;
+  color: rgb(59, 69, 57); 
+  padding: 0rem 1.5rem;
+}
+
+.flowerNav a:hover, a:focus{
+ color: rgb(222, 237, 220);
+  
+
+}
+/* nav a:hover, nav a:focus {
   color: rgb(44, 157, 179); 
   transition-property: color;
   text-decoration: none;
-}
+} */
 
 code {
   background-color: rgb(124, 159, 137,40%);
@@ -100,20 +119,24 @@ code {
 }
 
 .button-nav2 {
+  border: 0.05rem solid;
+
   display: inline-block;
+  text-align: center;
   padding: 0.5rem;
   color: white;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
   background-color: rgb(206, 168, 177);
   text-decoration: none;
-  transition-property: background-color; 
+  transition-property: background-color;
   transition-duration: 0.5s;
 }
 
 .button-nav2:hover, .button-nav2:focus {
   border: 0.05rem solid;
-  color:  rgb(206, 168, 177);
-  background-color: rgb(255, 255, 255);
+  color:rgb(255, 255, 255);
+  background-color: rgb(161, 76, 143);
 }
 
 .button-nav3 {
@@ -338,3 +361,42 @@ input[type='radio']:checked:before {
 /* 
   COMBINED ELEMENTS -------------------
 */
+
+/* payment */
+* {
+  box-sizing: border-box;
+}
+
+.pay-container{
+  background-color: #ffffff;
+  /* box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2); */
+  border-radius: 20px;
+  border:1rem ;
+  margin: 2rem; 
+ padding:1.4rem;
+  max-width: 500px;
+}
+
+.card {
+  max-width: 500px;
+  border:1rem ;
+  margin: auto;
+  width: 50%;
+  color: black;
+}
+
+
+.form-control {
+  color: white;
+  background-color: #d3d3d3;
+  border: 2px solid transparent;
+  height: 30px;
+  padding-left: 3px;
+}
+
+.form-control:focus {
+  color: white;
+  background-color: rgb(180, 221, 178);
+  border: 2px solid #2d4dda;
+  box-shadow: none;
+}

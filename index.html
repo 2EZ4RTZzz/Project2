@@ -47,22 +47,23 @@
 
       <h4>Rendered element:</h4>
       <nav>
-        <div id="flowerNav">
-          <a href="Home Page.html">New Home Page</a>
+        <div class="flowerNav">
+          <a href="Home Page.html">Home Page</a>
           <a href="#interactive_elements">Interactive Elements</a>
           <a href="#text_elements">Text Elements</a>
           <a href="#combined_elements">Combined Elements</a>
-          <a href="productlist.html">Product List Template</a>
-          <a href="checkout.html">Checkout Template</a>
+          <a href="productlist.html">Product List</a>
+          <a href="checkout.html">Checkout</a>
           <a href="#citations">Citations</a>
         </div>
       </nav>
+
       <h4>Sample code:</h4>
-      <code>&lt;nav&gt;&lt;div id="flowerNav"&gt;&lt;a href="#interactive_elements"&gt;Interactive Elements&lt;/a&gt;
+      <code>&lt;nav&gt;&lt;div class="flowerNav"&gt;&lt;a href="#interactive_elements"&gt;Interactive Elements&lt;/a&gt;
         &lt;a href="#text_elements"&gt;Text Elements&lt;/a&gt;
         &lt;a href="#combined_elements"&gt;Combined Elements&lt;/a&gt;
-        &lt;a href="productlist.html"&gt;Product List Template&lt;/a&gt;
-        &lt;a href="checkout.html"&gt;Checkout Template&lt;/a&gt;
+        &lt;a href="productlist.html"&gt;Product List&lt;/a&gt;
+        &lt;a href="checkout.html"&gt;Checkout&lt;/a&gt;
         &lt;a href="#citations"&gt;Citations&lt;/a&gt;&lt;/div&gt;
       </code>
 
@@ -204,7 +205,7 @@
     <section class="element">
       <h3>Main Navigation</h3>
       <nav>
-        <div id="flowerNav2">
+        <div class="flowerNav">
           <a href="index.html">Home</a>
           <a href="#Flowers">Flowers</a>
           <a href="#SpecialOccasions">Special Occasions</a>
@@ -221,10 +222,46 @@
       <a class="button-nav2" href="productlist.html">Click to the link</a>
 
     </section>
+    
+    <h3>Payment Form</h3>
 
     <section class="element">
-      <h3>Payment Form</h3>
-      <form>
+        <div class="pay-container">
+          <div class="card">
+                  <div class="col-12">
+                      <div class="text">
+                          <p>Name on Card</p>
+                          <input class="form-control" type="text" placeholder="Name" >
+                      </div>
+                  </div>
+                  <div class="col-12">
+                      <div class="text">
+                          <p>Card Number</p>
+                          <input class="form-control" type="text" placeholder="1234 5678 435678">
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="text">
+                          <p>Expiry date</p>
+                          <input class="form-control" type="text" placeholder="MM/YYYY">
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="text">
+                          <p>CVV/CVC</p>
+                          <input class="form-control " type="password" placeholder="***">
+                      </div>
+                  </div>
+                  <div class="col-12">
+                   <a class="button-nav2" href="#">Confirm Payment</a><br>
+
+                      </div>
+                  </div>
+              </div>
+              
+
+      </section>
+      <!-- <form>
         <label for="name">Name:</label><br>
         <input class="lab" type="text" id="name" name="input"><br>
         <label for="address">Address:</label><br>
@@ -245,7 +282,7 @@
 
       <input type="radio" name="paymenttype" id="mastercard" />
       <label for="mastercard">Mastercard</label><br>
-      <a class="button-nav2" href="#">Confirm Your Payment</a>
+      <a class="button-nav2" href="#">Confirm Your Payment</a> -->
       <h4>Sample code:</h4>
 
       <code>
