@@ -312,9 +312,10 @@ input[type="radio"]:checked:before {
   background-color: #ffffff;
   border-radius: 20px;
   border: 1rem;
-  margin: 2rem;
+  margin-left: 5rem;
   padding: 1.4rem;
-  max-width: 500px;
+  width: 30%;
+  
 
 }
 .checkout{
@@ -327,7 +328,7 @@ input[type="radio"]:checked:before {
 
 
 .card {
-  
+  line-height: 2rem;
   max-width: 500px;
   border: 1rem;
   margin: auto;
@@ -352,6 +353,7 @@ input[type="radio"]:checked:before {
 
 .col-25{
   flex: 25%;
+  
 }
 
 
@@ -359,3 +361,4 @@ input[type="radio"]:checked:before {
 .col-50 {
   flex: 50%;
 }
+
