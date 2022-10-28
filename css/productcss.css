@@ -1,235 +1,160 @@
 * {
-    box-sizing: border-box;
-    /* border:1px solid black; */
+  box-sizing: border-box;
+  /* border:1px solid black; */
 }
 
 @font-face {
-    font-family: "MyFont";
-    src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf ) format('truetype');
+  font-family: "MyFont";
+  src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf)
+    format("truetype");
 }
 
 body {
-    font-family: "MyFont";
-    background-color: rgb(209, 231, 188, 0.2);
-    margin-bottom: 4rem;
-    margin:0%;
+  font-family: "MyFont";
+  background-color: rgb(209, 231, 188, 0.2);
+  margin-bottom: 4rem;
+  margin: 0%;
 }
 
 h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 3em;
-    border-top: 0.2em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  border-top: 0.2em;
 }
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
 
 .element {
-    padding-bottom: .2rem;
-    border-top-width: 0.15rem;
-    border-top-style: solid;
-    border-top-color: black;
-    padding-top: 1rem;
-    text-align: center;
+  padding-bottom: 0.2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+  padding-top: 1rem;
+  text-align: center;
 }
 
 .button-nav3 {
-    display: inline-block;
-    padding: 0.3rem;
-    width: 7rem;
-    text-align: center;
-    margin-top: 1rem;
-    color: white;
-    background-color: rgb(124, 159, 137);
-    text-decoration: none;
-    transition-property: background-color;
-    transition-duration: 0.5s;
+  display: inline-block;
+  padding: 0.3rem;
+  width: 7rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+  background-color: rgb(124, 159, 137);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
-.button-nav3:hover,.button-nav3:focus {
-    /* border: 0.05rem solid; */
-    border: 0rem solid;
-    color: rgb(124, 159, 137);
-    background-color: rgb(255, 255, 255);
+.button-nav3:hover,
+.button-nav3:focus {
+  /* border: 0.05rem solid; */
+  border: 0rem solid;
+  color: rgb(124, 159, 137);
+  background-color: rgb(255, 255, 255);
 }
-
-/* #flowerNav {
-
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    align-items: center;
-    font-family: "MyFont";
-}
-@media screen and (max-width: 450px){
-    #flowerNav {
-     
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 1rem;
-        gap: 1rem;
-        align-items: center;
-        font-family: "MyFont";
-    }
-}
-@media screen and (max-width: 900px){
-    #flowerNav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
-        margin-bottom: 1rem;
-        align-items: center;
-        font-family: "MyFont";
-    }
-} */
-
-
-.flowerNav {
-
-    display: flex;
-    justify-content: center;
-    margin-top: 3em;
- 
-  }
-  
-  .flowerNav a {
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.2em;
-    color: rgb(59, 69, 57); 
-    padding: 0rem 1.5rem;
-  }
-  
-  .flowerNav a:hover, a:focus{
-   color: rgb(222, 237, 220);
-  }
-
 
 /* This code reference on W3schools*/
 .container {
-    position: relative;
-    width:100%;
-    padding: 1rem;
-    transform:scale(0.9);
-    transition: transform 1s;
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  transform: scale(0.9);
+  transition: transform 1s;
 }
 /* Make the image to responsive */
 .image {
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: 2s;
-} 
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 2s;
+}
 
-
-.image:hover{
-    transform:scale(1.1);
-    transition: transform 1s;
-    width:100%;
-} 
-
+.image:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+  width: 100%;
+}
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
-    position: absolute;
-    /* bottom: -17px; */
-    bottom: 0px;
-    background: rgb(0, 0, 0, 0.5);
-    width: 94%;
-    transition: 1.5s ease;
-    opacity: 0;
-    color: white;
-    font-size: 1rem;
-    height: 5rem;
-    padding: 0rem;
-    text-align: center;
-    transform:scale(0.9);
+  position: absolute;
+  /* bottom: -17px; */
+  bottom: 0px;
+  background: rgb(0, 0, 0, 0.5);
+  width: 94%;
+  transition: 1.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 1rem;
+  height: 5rem;
+  padding: 0rem;
+  text-align: center;
+  transform: scale(0.9);
 }
 
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
-    opacity: 1;
-    transform:scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-
 .grid-container {
-    display: grid;
-    /* float: left; */
-    grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  /* float: left; */
+  grid-template-columns: repeat(4, 1fr);
 
-    justify-content: space-between;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 2rem;
+  grid-column: 0.5;
+}
+
+.grid-item {
+  padding: 0.8rem;
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .grid-container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
     padding: 1rem;
     gap: 2rem;
     grid-column: 0.5;
+  }
 
-}
-
-.grid-item {  
+  .grid-item {
     padding: 0.8rem;
-    text-align: center;
-
-}
-@media screen and (max-width: 900px) {
-    .grid-container {
-        display: grid;
-        
-        grid-template-columns: repeat(3, 1fr);
-        padding: 1rem;
-        gap: 2rem;
-        grid-column: .5;
-     
-
-    }
-
-    .grid-item {
-        padding: 0.8rem;
-
-
-    }
-
+  }
 }
 @media screen and (max-width: 780px) {
-    .grid-container {
-        display: grid;
-        
-        grid-template-columns: repeat(2, 1fr);
-        padding: 1rem;
-        gap: 2rem;
-        grid-column: .5;
-     
+  .grid-container {
+    display: grid;
 
-    }
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    gap: 2rem;
+    grid-column: 0.5;
+  }
 
-    .grid-item {
-        padding: 0.8rem;
-
-
-    }
-
+  .grid-item {
+    padding: 0.8rem;
+  }
 }
 @media screen and (max-width: 450px) {
-    .grid-container {
-        display: grid;
-        
-        grid-template-columns: repeat(1, 1fr);
-        padding: 1rem;
-        gap: 2rem;
-        grid-column: .5;
-        
-         
+  .grid-container {
+    display: grid;
 
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+    gap: 2rem;
+    grid-column: 0.5;
+  }
 
-    }
-
-    .grid-item {
-        padding: 0.8rem;
-
-
-    }
-
+  .grid-item {
+    padding: 0.8rem;
+  }
 }

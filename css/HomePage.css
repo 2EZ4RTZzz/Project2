@@ -1,160 +1,147 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
   /* border: 0.1em solid red ; */
 }
-body{
-    height: 100vh;
-    background: linear-gradient(to top,#29323c,#485563);
+body {
+  height: 100vh;
+  background: linear-gradient(to top, #29323c, #485563);
 }
 
-#flowerNav2{
-    text-align: center;
-    /* display:flex; */
+#flowerNav2 {
+  text-align: center;
+  /* display:flex; */
 }
-.container{
-    width: 500px;
-    /* height:100px; */
-    display: flex;
-    position: absolute;
-    left: 53%;
-    top: 30%;
-    transform: translate(-50%,-85%);
-    /* 字体 */
-    color: #fff;
-    font-weight: 300;
-    text-transform: uppercase;
-    perspective: 1300px; 
+.container {
+  width: 500px;
+  /* height:100px; */
+  display: flex;
+  position: absolute;
+  left: 53%;
+  top: 30%;
+  transform: translate(-50%, -85%);
+  /* 字体 */
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  perspective: 1300px;
 }
- input{
-    display: none;
+input {
+  display: none;
 }
 
 /* 右边3个按钮 */
-.labels{
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.labels {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.tab{
-    width: 200px;
-    height: 180px;
-    line-height: 180px;
-    text-align: center;
+.tab {
+  width: 200px;
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
 }
 
 /* 按钮！！ */
-.tab:nth-child(1){
-    background-color: #00b4db;
+.tab:nth-child(1) {
+  background-color: #00b4db;
 }
-.tab:nth-child(2){
-    background-color: #009bc5;
+.tab:nth-child(2) {
+  background-color: #009bc5;
 }
-.tab:nth-child(3){
-    background-color: #007ba4;
+.tab:nth-child(3) {
+  background-color: #007ba4;
 }
 
 /* 第四个的按钮背景 */
-.tab:nth-child(4){
-    background-color: #1af806;
+.tab:nth-child(4) {
+  background-color: #1af806;
 }
 
-
-
-.cube{
-    position: relative;
-    flex: 2;
-    /* 3D效果 */
-    transform-style: preserve-3d;
-    transition: transform 0.5s ease-in;
+.cube {
+  position: relative;
+  flex: 2;
+  /* 3D效果 */
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in;
 }
 
 /* 所有TAB的 */
 
-.tab-content{
-    width: 95%;
-    height: 230px;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: red;
+.tab-content {
+  width: 95%;
+  height: 230px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
 }
-.tab-content h1{
-    font-size: 28px;
-    font-weight: 300;
+.tab-content h1 {
+  font-size: 28px;
+  font-weight: 300;
 }
-.tab-content p{
-    font-size: 14px;
-    font-weight: 100;
+.tab-content p {
+  font-size: 14px;
+  font-weight: 100;
 }
 
-
-
-
-.tab-content:nth-child(1){
-    background-color: #00b4db;
-    transform: rotateX(-270deg) translateY(-115px);
-    transform-origin: top center;
+.tab-content:nth-child(1) {
+  background-color: #00b4db;
+  transform: rotateX(-270deg) translateY(-115px);
+  transform-origin: top center;
 }
-.tab-content:nth-child(2){
-    background-color: #009bc5;
-    transform: translateZ(115px);
+.tab-content:nth-child(2) {
+  background-color: #009bc5;
+  transform: translateZ(115px);
 }
-.tab-content:nth-child(3){
-    background-color: #007ba4;
-    transform: rotateX(-90deg) translateY(115px);
-    transform-origin: bottom center;
+.tab-content:nth-child(3) {
+  background-color: #007ba4;
+  transform: rotateX(-90deg) translateY(115px);
+  transform-origin: bottom center;
 }
 
 /* 第四个 */
-.tab-content:nth-child(4){
-    background-color: #016283;
-    transform: rotateX(180deg) translateY(-115px);
-    transform-origin: bottom center;
+.tab-content:nth-child(4) {
+  background-color: #016283;
+  transform: rotateX(180deg) translateY(-115px);
+  transform-origin: bottom center;
 }
 
-
-
-
-
-#tab_top:checked ~ .cube{
-    transform: rotateX(-90deg);
+#tab_top:checked ~ .cube {
+  transform: rotateX(-90deg);
 }
-#tab_middle:checked ~ .cube{
-    transform: rotateX(0deg) translateY(10px);
+#tab_middle:checked ~ .cube {
+  transform: rotateX(0deg) translateY(10px);
 }
-#tab_bottom:checked ~ .cube{
-    transform: rotateX(90deg);
+#tab_bottom:checked ~ .cube {
+  transform: rotateX(90deg);
 }
 
 /* 第四个 */
-#tab_bottom:checked ~ .cube{
-    transform: rotateX(90deg);
+#tab_bottom:checked ~ .cube {
+  transform: rotateX(90deg);
 }
 
-
-
-.tab{
-    width: 100px;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    transition: 2s;
+.tab {
+  width: 100px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  transition: 2s;
 }
 
-
-.tab:hover{
-    background-color: #9452A5;
-    transition: transform 1s;
-    transition: scale(0.8);
-    border-radius: 10rem;
-    transform: rotate(360deg);
+.tab:hover {
+  background-color: #9452a5;
+  transition: transform 1s;
+  transition: scale(0.8);
+  border-radius: 10rem;
+  transform: rotate(360deg);
 }
 
-.labels:focus-within{
-
-    background-color: crimson;
-}   
+.labels:focus-within {
+  background-color: crimson;
+}

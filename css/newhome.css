@@ -35,60 +35,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-/* #flowerNav {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  align-items: center;
-  font-family: "MyFont";
-} */
-
-/* #flowerNav a {
-  display: block;
-  font-size: 1.2em; */
-/* width: 10em; */
-/* padding: 0.4em; */
-/* text-align: center; */
-/* text-decoration: none; */
-/* background-color: rgb(242, 216, 170); */
-/* color: rgb(127, 143, 127); 
-} */
-
-/* #flowerNa    v a:hover, */
-/* a:focus { */
-/* background-color: rgb(255, 255, 255); */
-/* color: rgb(222, 237, 220); */
-/* border: 0.1em solid rgb(242, 216, 170); */
-/* } */
-
-/* .imgs {
-    width: 100%;
-    margin-top: 2em;
-}
-
-.imgBox {
-    display: flex;
-    justify-content: center;
-} */
-
-
-
-a {
-  color: rgb(65, 156, 100);
-  transition-property: color;
-  text-decoration: none;
-  transition-duration: 0.5s;
-}
-
-a:hover {
-  color: rgb(224, 233, 225);
-  transition-property: color;
-  text-decoration: none;
-}
-a:focus {
-  color: rgb(161, 77, 143);
-}
-
 .imgBox {
   position: relative;
   width: 100%;
@@ -102,41 +48,23 @@ a:focus {
 }
 .imgBox .flowerNav {
   position: absolute;
-  top: 9%;
+  top: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  
+
   font-size: 1.2em;
   border: none;
   cursor: pointer;
   text-align: center;
 }
 
-.flowerNav a {
-  text-align: center;
-  color: rgb(222, 237, 220); 
-  padding: 0rem 1.5rem;
-}
-
-.flowerNav a:hover, a:focus{
- 
-  color: rgb(59, 69, 57); 
-
-}
-
-
 /* reference page  */
 /* https://codepen.io/bitstarr/pen/XjaJGz */
 .imgBox .arrow {
   position: absolute;
   bottom: 0rem;
-  /* bottom: 50%; */
-  /* left: 30%; */
-  right:50%;
-  /* bottom:100%; */
-  /* right: 0%; */
-  /* margin-left: -20px; */
+  right: 50%;
   width: 40px;
   height: 40px;
 

@@ -9,6 +9,7 @@
     <link type="text/css" href="css/product_infor.css" rel="stylesheet">
     <link type="text/css" href="css/SharedCss.css" rel="stylesheet">
     <script src="product_information.js"></script>
+    <script src="js/script.js"></script>
 
 </head>
 <header>
@@ -24,21 +25,31 @@
     </nav>
 </header>
 
-<main>
-
-    <body>
+<body>
+    <main>
         <div class="product-left">
+
+            <div class="small-pics">
+                <img src="image/F1.png" alt="" onclick="changeImg(1);">
+                <img src="image/F2.png" alt="" onclick="changeImg(2);">
+                <img src="image/F3.png" alt="" onclick="changeImg(3);">
+                <img src="image/F4.png" alt="" onclick="changeImg(4);">
+                <img src="image/F5.png" alt="" onclick="changeImg(5);">
+            </div>
+
             <div class="large-pic">
-                <img src="image/plant7.jpg" alt="plant">
+                <img src="image/plant7.png" alt="plant">
             </div>
         </div>
+
         <div class="product-right">
             <!-- <div class="title">
-                
-            </div> -->
+                    
+                </div> -->
             <h2>Puff the Dragon Tree, XL</h2>
             <div class="price">$150</div>
             <h3>A symbol of good luck and financial success</h3>
+            <p>Pablo the Mexican Fence Post Cactus, XL <a href="">Learn More</a></p>
 
             <div class="color">
                 <h2>Color</h2>
@@ -46,6 +57,8 @@
                 <button></button>
                 <button></button>
             </div>
+
+
             <div class="addCart-btn">
                 <div class="quantity buttons_added">
                     <input type="button" value="-" class="minus" /><input type="number" step="1" min="1" max=""
@@ -54,6 +67,7 @@
                 </div>
                 <a href="">ADD TO CART</a>
             </div>
+
 
             <div class="Description">
                 <h2>Descrition</h2>
@@ -65,29 +79,42 @@
                     These tropical plants will thrive year-round, in a warm bright spot.
                     Provide extra humidity with a mister to keep the leaves looking their best.
                 </p>
+
+
+                <ul>
+                    <li>beginner Friendly</li>
+                    <li>Easy grow up</li>
+                    <li>Height: 3-16 feet</li>
+                    <li>May require support to prevent breakage</li>
+                    <li>Most varieties are drought and heat tolerant</li>
+                </ul> 
+
+
             </div>
+
         </div>
-</main>
+    </main>
 
-<div class="container-Bottom">
-    <div>
-        <h2>Our company</h2>
-        <a href="">Our Story</a>
-        <a href="">Our Guarantee</a>
-        <a href="">Corporate</a>
-        <a href="">Rewards</a>
-        <a href="">Contact Us</a>
-        <a href="">Join Us</a>
+    <div class="container-Bottom">
+        <div>
+            <h2>Our company</h2>
+            <a href="">Our Story</a>
+            <a href="">Our Guarantee</a>
+            <a href="">Corporate</a>
+            <a href="">Rewards</a>
+            <a href="">Contact Us</a>
+            <a href="">Join Us</a>
+        </div>
+
+        <div>
+            <h2>The Essentials</h2>
+            <a href="">Shipping</a>
+            <a href="">Return Policy</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of service</a>
+        </div>
     </div>
 
-    <div>
-        <h2>The Essentials</h2>
-        <a href="">Shipping</a>
-        <a href="">Return Policy</a>
-        <a href="">Privacy Policy</a>
-        <a href="">Terms of service</a>
-    </div>
-</div>
 </body>
 
 </html>
