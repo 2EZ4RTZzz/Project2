@@ -34,6 +34,14 @@ h1 {
     border-top: 0.2em;
     font-size: 3em;
 }
+
+h2{
+    margin-left: 2em;
+    margin-bottom: 1em;
+
+}
+
+
 h4{
     text-align:center;
 }
@@ -239,13 +247,15 @@ a:focus {
 }
 
 
-
 .button-nav2 {
+    border: 0.05rem solid;
+
     display: inline-block;
     text-align: center;
     padding: 0.5rem;
     color: white;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
     background-color: rgb(206, 168, 177);
     text-decoration: none;
     transition-property: background-color;
@@ -271,11 +281,12 @@ a:focus {
 }
 
 
-.button-nav2:hover,
-.button-nav2:focus {
+.button-nav2:hover,.button-nav2:focus {
     border: 0.05rem solid;
-    color: rgb(206, 168, 177);
-    background-color: rgb(255, 255, 255);
+    /* color: rgb(206, 168, 177); */
+    color:rgb(255, 255, 255);
+    background-color: rgb(161, 76, 143);
+    /* background-color: rgb(255, 255, 255); */
 }
 
 .lab {
@@ -353,24 +364,24 @@ input[type='radio']:checked:before {
     display:flex;
     line-height: 2em;
 }
-@media screen and (max-width: 450px){
+/* @media screen and (max-width: 450px){
     .contact{
 
-        /* border:.001px solid black; */
+        border:.001px solid black;
         display: flex;
         flex-wrap: wrap;
         margin-top: 3em;
         margin-bottom: 2em;
         line-height: 2em;
-    }
-    .pay{
+    } */
+    /* .pay{
         display:flex;
         flex-wrap: wrap;
         line-height: 2em;
-    }
-}
+    } */
 
-.informationInput:hover , .informationInput:focus{
+
+/* .informationInput:hover , .informationInput:focus{
     background-color: rgb(180, 178, 178);
     
   }
@@ -381,10 +392,10 @@ input[type='radio']:checked:before {
     font-size: 1rem;
     margin-left:1rem;
     margin-right: 2rem;
-  }
+  } */
 
 
-.bankcard-info{
+/* .bankcard-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -393,13 +404,54 @@ input[type='radio']:checked:before {
     margin: auto;
     font-size: 1.5rem;
     padding-bottom: 1rem;
-  }
+  } */
   
-  .bankcard-info input{
+  /* .bankcard-info input{
     margin-bottom: 1rem;
-  }
-.pay{
+  } */
+/* .pay{
     display: flex;
     justify-content: center;
    
-}
+} */
+
+
+/* payment */
+* {
+    box-sizing: border-box;
+  }
+  
+  .pay-container{
+    background-color: #ffffff;
+    /* box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2); */
+    border-radius: 20px;
+    border:1rem ;
+    margin: 2rem; 
+   padding:1.4rem;
+    max-width: 500px;
+  }
+  
+  .card {
+    max-width: 500px;
+    border:1rem ;
+    margin: auto;
+    width: 50%;
+    color: black;
+  }
+  
+  
+  .form-control {
+    color: white;
+    background-color: #d3d3d3;
+    border: 2px solid transparent;
+    height: 30px;
+    padding-left: 3px;
+  }
+  
+  .form-control:focus {
+    color: white;
+    background-color: rgb(180, 221, 178);
+    border: 2px solid #2d4dda;
+    box-shadow: none;
+  }
+  
