@@ -325,15 +325,12 @@ input[type="radio"]:checked:before {
 
 
 
-
-
 .card {
-  line-height: 2rem;
+  line-height: 1.6rem;
   max-width: 500px;
   border: 1rem;
   margin: auto;
   width: 50%;
-  color: black;
 }
 
 .form-control {
