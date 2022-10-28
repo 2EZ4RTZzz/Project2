@@ -133,7 +133,7 @@ a:focus {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  color: white;
+  
   font-size: 1.2em;
   border: none;
   cursor: pointer;
@@ -142,8 +142,16 @@ a:focus {
 
 .flowerNav a {
   text-align: center;
+  color: rgb(222, 237, 220); 
   padding: 0rem 1.5rem;
 }
+
+.flowerNav a:hover, a:focus{
+ 
+  color: rgb(59, 69, 57); 
+
+}
+
 
 /* reference page  */
 /* https://codepen.io/bitstarr/pen/XjaJGz */

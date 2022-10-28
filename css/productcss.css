@@ -88,39 +88,27 @@ p{
 
 
 .flowerNav {
-    position: absolute;
-    top: 9%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    color: white;
-    font-size: 1.2em;
-    border: none;
-    cursor: pointer;
-    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+ 
   }
   
   .flowerNav a {
     text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(59, 69, 57); 
     padding: 0rem 1.5rem;
   }
-/* #flowerNav a {
-    display: block;
-    width: 10em;
-    padding: 0.4em;
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(242, 216, 170);
-    color: rgb(198, 99, 112);
-}
-
-#flowerNav a:hover,
-a:focus {
-    transition: 1.5s;
-    background-color: rgb(255, 255, 255);
-    color: rgb(198, 99, 112);
+  
+  .flowerNav a:hover, a:focus{
+   color: rgb(222, 237, 220);
     
-} */
+  
+  }
+
 
 /* This code reference on W3schools*/
 .container {
