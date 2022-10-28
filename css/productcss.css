@@ -12,6 +12,7 @@ body {
     font-family: "MyFont";
     background-color: rgb(209, 231, 188, 0.2);
     margin-bottom: 4rem;
+    margin:0%;
 }
 
 h1 {
@@ -105,8 +106,6 @@ p{
   
   .flowerNav a:hover, a:focus{
    color: rgb(222, 237, 220);
-    
-  
   }
 
 
@@ -234,38 +233,3 @@ p{
     }
 
 }
-.container-Bottom {
-    display: flex;
-    justify-content:space-between;
-    margin-top: 2em;
-    padding:0em;
-    background-color: rgb(188, 193, 190);
-   
-}
-.container-Bottom>div:nth-of-type(1){
-    display: flex;
-    flex-direction: column;
-    padding: 1.5em;
-    font-size: 1.3em;
-    line-height: 2em;
-}
-
-.container-Bottom>div:nth-of-type(2){
-    display: flex;
-    flex-direction: column;
-    padding: 1.5em;
-    font-size: 1.3em;
-    line-height: 2em;
-}
-a {
-    color: rgb(65, 156, 100);
-    transition-property: color;
-    text-decoration: none;
-    transition-duration: 0.5s;
-   }
-  
-   a:hover{
-    color: rgb(32, 72, 35); 
-    transition-property: color;
-    text-decoration: none;
-   }

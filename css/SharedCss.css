@@ -1,0 +1,75 @@
+ /* header 框架 */
+
+
+
+ /* 中部框架 */
+ 
+
+
+
+ /* body框架 */
+ body {
+    font-family: "MyFont";
+    background-color: rgb(209, 231, 188, 0.2);
+    margin-bottom: 4rem;
+    margin: 0%;
+}
+
+
+ /* 底部框架 */
+ /* a font */
+  a {
+    color: rgb(65, 156, 100);
+    transition-property: color;
+    text-decoration: none;
+    transition-duration: 0.5s;
+   }
+  
+   a:hover{
+    color: rgb(32, 72, 35); 
+    transition-property: color;
+    text-decoration: none;
+   } 
+
+
+
+
+/* About website page bottom */
+container-Bottom a{
+    color: rgb(65, 156, 100);
+    text-decoration: none;
+  }
+  
+  .container-Bottom a:hover {
+    color: rgb(224, 233, 225);
+    transition-property: color;
+    
+  }
+  .container-Bottom a:focus {
+    color: rgb(161, 77, 143);
+    
+  }
+  .container-Bottom {
+      display: flex;
+      justify-content:space-between;
+      margin-top: 2em;
+      background-color: rgb(188, 193, 190);
+      
+  }
+  .container-Bottom>div:nth-of-type(1){
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2.5rem;
+      font-size: 1.3em;
+      line-height: 2em;
+  }
+  
+  .container-Bottom>div:nth-of-type(2){
+      display: flex;
+      flex-direction: column;
+      padding: 2.5rem;
+      font-size: 1.3em;
+      line-height: 2em;
+  }
+
