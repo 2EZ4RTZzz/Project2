@@ -4,10 +4,6 @@
     format("truetype");
 }
 
-* {
-  /* border: 0.1em solid red ; */
-}
-
 .customfont {
   font-family: "MyFont";
 }
