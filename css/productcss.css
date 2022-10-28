@@ -52,8 +52,8 @@ p {
 .button-nav3:focus {
   /* border: 0.05rem solid; */
   border: 0rem solid;
-  color: rgb(124, 159, 137);
-  background-color: rgb(255, 255, 255);
+  color: white;
+  background-color: rgb(49, 62, 54)
 }
 
 /* This code reference on W3schools*/

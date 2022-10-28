@@ -182,8 +182,8 @@ h4 {
 .button-nav2:focus {
   border: 0.05rem solid;
   /* color: rgb(206, 168, 177); */
-  color: rgb(124, 159, 137);
-  background-color: white;
+  color: white;
+  background-color: rgb(49, 62, 54)
   /* background-color: rgb(255, 255, 255); */
 }
 

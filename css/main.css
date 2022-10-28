@@ -122,7 +122,7 @@ code {
   color: white;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  background-color: rgb(206, 168, 177);
+  background-color: rgb(124, 159, 137);
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -132,7 +132,7 @@ code {
 .button-nav2:focus {
   border: 0.05rem solid;
   color: rgb(255, 255, 255);
-  background-color: rgb(161, 76, 143);
+  background-color: rgb(49, 62, 54);
 }
 
 .button-nav3 {
@@ -142,7 +142,7 @@ code {
   text-align: center;
   margin-top: 1rem;
   color: white;
-  background-color: rgb(124, 159, 137);
+  background-color: rgb(49, 62, 54);
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -301,6 +301,9 @@ a:focus {
   transform: scale(1.05);
   transition: transform .5s;
   width: 30%;
+}
+.imgSize{
+  width:30%;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
