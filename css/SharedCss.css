@@ -15,7 +15,7 @@
 
 .flowerNav a:hover,
 a:focus {
-  color: rgb(222, 237, 220);
+  color: rgb(143, 162, 140);
 }
 
 /* 中部框架 */
@@ -44,27 +44,27 @@ a:hover {
 }
 
 a:focus {
-  color: rgb(161, 77, 143);
+  color: rgb(32, 72, 35);
 }
 
 /* About website page bottom */
 .container-Bottom a {
-  color: rgb(65, 156, 100);
+  color: rgb(46, 98, 66);
   text-decoration: none;
 }
 
 .container-Bottom a:hover {
-  color: rgb(224, 233, 225);
+  color:rgb(31, 58, 42);
   transition-property: color;
 }
 .container-Bottom a:focus {
-  color: rgb(161, 77, 143);
+  color:rgb(31, 58, 42);
 }
 .container-Bottom {
   display: flex;
   justify-content: space-between;
   margin-top: 2em;
-  background-color: rgb(188, 193, 190);
+  background-color: rgb(183, 200, 190,80%);
 }
 .container-Bottom > div:nth-of-type(1) {
   display: flex;

@@ -84,7 +84,7 @@ p {
   /* bottom: -17px; */
   bottom: 0px;
   background: rgb(0, 0, 0, 0.5);
-  width: 94%;
+  width: 90%;
   transition: 1.5s ease;
   opacity: 0;
   color: white;
@@ -92,7 +92,7 @@ p {
   height: 5rem;
   padding: 0rem;
   text-align: center;
-  transform: scale(0.9);
+  /* transform: scale(0.1); */
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -106,7 +106,7 @@ p {
   /* float: left; */
   grid-template-columns: repeat(4, 1fr);
 
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 1rem;
   gap: 2rem;
   grid-column: 0.5;
