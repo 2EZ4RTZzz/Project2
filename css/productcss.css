@@ -59,46 +59,46 @@ p {
 /* This code reference on W3schools*/
 .container {
   position: relative;
-  width: 100%;
-  padding: 1rem;
-  transform: scale(0.9);
-  transition: transform 1s;
+  /* width: 100%; */
+  /* padding: 1rem; */
+  transform: scale(0.8);
 }
 /* Make the image to responsive */
 .image {
   display: block;
   width: 100%;
   height: auto;
-  transition: 2s;
 }
 
 .image:hover {
-  transform: scale(1.1);
-  transition: transform 1s;
   width: 100%;
 }
 
+h3{
+  font-size:1.3rem;
+}
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute;
   /* bottom: -17px; */
-  bottom: 0px;
+  bottom: 0rem;
   background: rgb(0, 0, 0, 0.5);
-  width: 90%;
-  transition: 1.5s ease;
+  width: 100%;
+  transition: 2.5s ease;
   opacity: 0;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   height: 5rem;
   padding: 0rem;
+  padding-top:2rem;
   text-align: center;
-  /* transform: scale(0.1); */
 }
 
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
-  transform: scale(1.1);
+  /* right:10%; */
+  transform: scale(1);
 }
 
 .grid-container {

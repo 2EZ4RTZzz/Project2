@@ -35,68 +35,12 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.imgBox {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 
 .imgs {
   width: 100%;
   height: auto;
 }
-.imgBox .flowerNav {
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 
-  font-size: 1.2em;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-}
-
-/* reference page  */
-/* https://codepen.io/bitstarr/pen/XjaJGz */
-.imgBox .arrow {
-  position: absolute;
-  bottom: 0rem;
-  right: 50%;
-  width: 40px;
-  height: 40px;
-
-  /**
-   * Dark Arrow Down
-   */
-  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/56/Circle-icons-arrow-down.svg); */
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f6/Antu_arrow-down.svg);
-  
-  
-  background-size: contain;
-}
-
-.bounce {
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
 
 .imgMiddle{
   width:20%
@@ -156,3 +100,98 @@ body {
 }
 
 
+/* reference page  */
+/* https://codepen.io/bitstarr/pen/XjaJGz */
+.imgBox .arrow {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+  width: 40px;
+  height: 40px;
+  transition:1.5s;
+  /* left:5%;
+  top:5%; */
+
+  /**
+   * Dark Arrow Down
+   */
+  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/56/Circle-icons-arrow-down.svg); */
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f6/Antu_arrow-down.svg);
+  background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* .flowerNav {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}  */
+
+.Logoimage{
+  position: absolute;
+  display: block;
+  width:6%;
+  height:auto;
+  top: 3.5%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/* still needs to be fix!***************** 2022/11/3 23:09 WYY */
+.flowerNav {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+} 
+
+.flowerNav a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(59, 69, 57);
+  padding: 0rem 1.5rem;
+}
+
+.flowerNav a:hover,
+a:focus {
+  color: rgb(143, 162, 140);
+}
