@@ -156,7 +156,8 @@ html {
 }  */
 
 .Logoimage{
-  position: absolute;
+  position:fixed;
+  /* position: absolute; */
   display: block;
   width:6%;
   height:auto;

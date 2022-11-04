@@ -1,4 +1,7 @@
 /* header 框架 */
+html {
+  scroll-behavior: smooth;
+}
 
 .imgBox {
   position: relative;
@@ -8,7 +11,8 @@
 }
 
 .Logoimage{
-  position: absolute;
+  position:fixed;
+  /* position: absolute; */
   display: block;
   width:6%;
   height:auto;
