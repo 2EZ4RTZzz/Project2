@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" href="css/checkout.css" rel="stylesheet">
     <link type="text/css" href="css/SharedCss.css" rel="stylesheet">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -15,15 +16,12 @@
     </div>
 
     <nav>
-        <div>
-            <div class="flowerNav">
-                <a href="productlist.html">Plants</a>
-                <a href="about_us.html">Our Story</a>
-                <a href="checkout.html">Checkout</a>
-                <a href="about_us.html">Contact us</a>
-                <a href="index.html">Style guide</a>
-            </div>
-            <a href="#goes_down" class="arrow bounce"></a>
+        <div class="flowerNav">
+            <a href="productlist.html">Plants</a>
+            <a href="OurStory.html">Our Story</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="ContactUs.html">Contact us</a>
+            <a href="index.html">Style guide</a>
         </div>
     </nav>
 
@@ -148,7 +146,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a class="button-nav2" href="#">Confirm Payment</a>
+                            <a class="button-nav2" onclick="myFunction3()" href="#">Confirm Payment</a>
                         </div>
 
                     </div>
@@ -183,56 +181,36 @@
 
 
 
-        <!-- <div class="contact">
-            <div>
-
-                <label for="fname">First Name: </label>
-                <input class="lab" type="text" id="fname" name="input">
-                <label for="lname">Last Name: </label>
-                <input class="lab" type="text" id="lname" name="input"><br>
-                <label for="address">Address: </label>
-                <input class="lab2" type="text" id="address" name="input"><br>
-                <label for="city">City/State: </label>
-                <input class="lab" type="text" id="city" name="input">
-                <label for="code">Postal code: </label>
-                <input class="lab" type="text" id="code" name="input">
-           
-
-            </div>
-
-        </div> -->
-
-        <!-- <div class="pay">
-            <div>
-                <a class="button-nav2" href="#">Confirm Payment</a><br>
-            </div>
-        </div>
-        <hr>
-
-    </section> -->
-
         <div class="container-Bottom">
+
+            <div>
+                <h2>Subscribe</h2>
+                <input type="text" placeholder="Email" name="name" required>
+                <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                </label>
+                <div>
+                    <a class="button-nav2" onclick="myFunction()">Subscribe</a>
+                </div>
+            </div>
+        
+            
             <div>
                 <h2>Our company</h2>
-                <a href="">Our Story</a>
-                <a href="">Instagram</a>
-                <a href="">Facebook</a>
+                <a href="OurStory.html">Our Story</a>
+                <a href="https://www.instagram.com/secretccino/?igshid=YmMyMTA2M2Y%3D">Instagram</a>
+                <a href="https://www.facebook.com/groups/866946150394713">Facebook</a>
+                <a href="http://www.xiaohongshu.com/discovery/item/6017dcf5000000000100bd0b?source=question">Little Red Book</a>
             </div>
-
+    
             <div>
-
+    
                 <h2>The Essentials</h2>
-                <a href="">Shipping</a>
-                <a href="">Return Policy</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Terms of service</a>
-
-            </div>
-
-            <div>
-                <p>电话</p>
-                <p>地址</p>
-                <p>假的sub</p>
+                <a href="shipping.html">Shipping</a>
+                <a href="return_policy.html">Return Policy</a>
+                <a href="Privacy_Policy.html">Privacy Policy</a>
+                <a href="Terms.html">Terms of service</a>
+    
             </div>
         </div>
 

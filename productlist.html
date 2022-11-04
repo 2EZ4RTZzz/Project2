@@ -5,9 +5,11 @@
 
     <meta charset="utf-8">
     <title>Product List here</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" href="css/productcss.css" rel="stylesheet">
     <link type="text/css" href="css/SharedCss.css" rel="stylesheet">
+
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -16,15 +18,12 @@
     </div>
 
     <nav>
-        <div>
-            <div class="flowerNav">
-                <a href="productlist.html">Plants</a>
-                <a href="about_us.html">Our Story</a>
-                <a href="checkout.html">Checkout</a>
-                <a href="about_us.html">Contact us</a>
-                <a href="index.html">Style guide</a>
-            </div>
-            <a href="#goes_down" class="arrow bounce"></a>
+        <div class="flowerNav">
+            <a href="productlist.html">Plants</a>
+            <a href="OurStory.html">Our Story</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="ContactUs.html">Contact us</a>
+            <a href="index.html">Style guide</a>
         </div>
     </nav>
 
@@ -42,7 +41,7 @@
                 <h3>Figgy the Fiddle Leaf Fig (Bush)</h3>
                 <div>150$</div>
 
-                <a class="button-nav3" href="#">Add to Cart</a>
+                <a class="button-nav3" onclick="myFunction4()" href="#">Add to Cart</a>
             </div>
 
 
@@ -56,7 +55,7 @@
                 <h3>Alli the Ficus Altissima Tree</h3>
                 <div>200$</div>
 
-                <a class="button-nav3" href="#">Add to Cart</a>
+                <a class="button-nav3" onclick="myFunction4()" href="#">Add to Cart</a>
             </div>
 
 
@@ -69,7 +68,7 @@
                 </div>
                 <h4>Kanso Recycled Po, green</h4>
                 <div>120$</div>
-                <a class="button-nav3" href="#">Add to Cart</a>
+                <a class="button-nav3" onclick="myFunction4()" href="#">Add to Cart</a>
             </div>
 
 
@@ -82,7 +81,7 @@
                 </div>
                 <h4>Big Red the Burgundy Rubber Plant, Medium</h4>
                 <div>180$</div>
-                <a class="button-nav3" href="#">Add to Cart</a>
+                <a class="button-nav3" onclick="myFunction4()" href="#">Add to Cart</a>
             </div>
 
             <div class="grid-item">
@@ -95,7 +94,7 @@
                 <h4>Jab-Jab the Golden Pothos, Small</h4>
                 <div>180$</div>
 
-                <a class="button-nav3" href="#">Add to Cart</a>
+                <a class="button-nav3" onclick="myFunction4()" href="#">Add to Cart</a>
             </div>
 
 
@@ -111,7 +110,7 @@
                 <h4>Kanso Recycled Pot, Small</h4>
                 <div>180$</div>
 
-                <a class="button-nav3" href="#">Add to Cart</a>
+                <a class="button-nav3" onclick="myFunction4()" href="#">Add to Cart</a>
             </div>
 
             <div class="grid-item">
@@ -126,7 +125,7 @@
                 <h4>Puff the Dragon Tree, XL</h4>
                 <div>180$</div>
 
-                <a class="button-nav3" href="#">Add to Cart</a>
+                <a class="button-nav3" onclick="myFunction4()" href="#">Add to Cart</a>
             </div>
 
 
@@ -140,34 +139,43 @@
                 </div>
                 <h4>Moko Wood Plant Stand</h4>
                 <div>180$</div>
-                <a class="button-nav3" href="#">Add to Cart</a>
+                <a class="button-nav3" onclick="myFunction4()" href="#">Add to Cart</a>
             </div>
         </div>
     </section>
 
 
     <div class="container-Bottom">
+
+        <div>
+            <h2>Subscribe</h2>
+            <input type="text" placeholder="Email" name="name" required>
+            <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+            </label>
+            <div>
+                <a class="button-nav2" onclick="myFunction()">Subscribe</a>
+            </div>
+        </div>
+
+
         <div>
             <h2>Our company</h2>
-            <a href="">Our Story</a>
-            <a href="">Instagram</a>
-            <a href="">Facebook</a>
+            <a href="OurStory.html">Our Story</a>
+            <a href="https://www.instagram.com/secretccino/?igshid=YmMyMTA2M2Y%3D">Instagram</a>
+            <a href="https://www.facebook.com/groups/866946150394713">Facebook</a>
+            <a href="http://www.xiaohongshu.com/discovery/item/6017dcf5000000000100bd0b?source=question">Little Red
+                Book</a>
         </div>
 
         <div>
 
             <h2>The Essentials</h2>
-            <a href="">Shipping</a>
-            <a href="">Return Policy</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Terms of service</a>
+            <a href="shipping.html">Shipping</a>
+            <a href="return_policy.html">Return Policy</a>
+            <a href="Privacy_Policy.html">Privacy Policy</a>
+            <a href="Terms.html">Terms of service</a>
 
-        </div>
-
-        <div>
-            <p>电话</p>
-            <p>地址</p>
-            <p>假的sub</p>
         </div>
     </div>
 

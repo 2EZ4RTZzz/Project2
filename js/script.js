@@ -11,11 +11,22 @@ $(function() {
   });
 });
 
-
-
-
-function addClass() {
-  document.body.classList.add("sent");
+function myFunction2() {
+  alert("Submitted");
 }
 
-sendLetter.addEventListener("click", addClass);
+function myFunction() {
+  alert("Thank you for following us");
+}
+
+function myFunction2() {
+  alert("Submitted");
+}
+
+function myFunction3() {
+  alert("Order Confirmed");
+}
+
+function myFunction4() {
+  alert("Successfully added to cart");
+}

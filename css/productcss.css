@@ -9,12 +9,6 @@
     format("truetype");
 }
 
-body {
-  font-family: "MyFont";
-  background-color: rgb(209, 231, 188, 0.2);
-  margin-bottom: 4rem;
-  margin: 0%;
-}
 
 h1 {
   text-align: center;
