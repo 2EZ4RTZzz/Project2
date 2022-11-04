@@ -76,9 +76,9 @@ p {
   padding: 0rem 1.5rem;
 }
 
-.flowerNav a:hover,
-a:focus {
-  color: rgb(222, 237, 220);
+.flowerNav a:hover, a:focus {
+  color: rgb(143, 162, 140);
+
 }
 /* nav a:hover, nav a:focus {
   color: rgb(44, 157, 179); 
@@ -195,7 +195,7 @@ input[type="radio"]:checked:before {
   background: rgb(124, 159, 137);
 }
 
-#flowerNav2 {
+/* #flowerNav2 {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -218,7 +218,7 @@ a:focus {
   background-color: rgb(255, 255, 255);
   color: rgb(198, 99, 112);
   border: 0.1em solid rgb(242, 216, 170);
-}
+} */
 @media screen and (max-width: 450px) {
   #flowerNav2 {
     display: flex;
@@ -240,7 +240,7 @@ a:focus {
   }
 }
 
-#flowerNav {
+/* #flowerNav {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -263,7 +263,7 @@ a:focus {
   background-color: rgb(255, 255, 255);
   color: rgb(198, 99, 112);
   border: 0.1em solid rgb(242, 216, 170);
-}
+} */
 @media screen and (max-width: 450px) {
   #flowerNav {
     display: flex;
@@ -289,39 +289,32 @@ a:focus {
 .container {
   position: relative;
 }
-
-/* Make the image to responsive */
-.image {
-  display: block;
-  width: 30%;
-  height: auto;
-}
-
-.image:hover {
-  transform: scale(1.05);
-  transition: transform .5s;
-  width: 30%;
-}
 .imgSize{
   width:30%;
+}
+
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute;
   bottom: 0rem;
-  background: rgb(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0,0.5);
   bottom: 0rem;
   width: 50%;
-  transition: 0.5s ease;
-  opacity: 0;
+  transition: .5s ease;
+  opacity:0;
   color: white;
   font-size: 1rem;
   height: 2rem;
   padding: 0rem;
   text-align: center;
 }
-
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
