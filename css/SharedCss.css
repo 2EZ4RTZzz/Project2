@@ -83,7 +83,7 @@ a:focus {
 
 /* About website page bottom */
 .container-Bottom a {
-  color: rgb(46, 98, 66);
+  color: rgb(53, 114, 77);
   text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ a:focus {
 
 /* sub设置 4:19 11/4 */
 .button-nav2 {
-  border: 0.05rem solid;
+  /* border: 0.05rem solid; */
   display: inline-block;
   display:flex;
   justify-content: center;
@@ -143,4 +143,18 @@ a:focus {
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
+}
+
+
+.button-nav2:hover {
+  /* border: 0.05rem solid; */
+  display: inline-block;
+  display:flex;
+  justify-content: center;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(53, 114, 77)
+
 }

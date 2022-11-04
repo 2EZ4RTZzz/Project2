@@ -51,7 +51,11 @@ input[type=text], select, textarea {
 /* Style the container/contact section */
 .container {
   /* background-color: #ffffff; */
+<<<<<<< Updated upstream
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+=======
+  /* box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2); */
+>>>>>>> Stashed changes
   border-radius: 20px;
   border: 1rem;
   margin-top: 5rem;
