@@ -131,7 +131,7 @@ a:focus {
 
 /* sub设置 4:19 11/4 */
 .button-nav2 {
-  /* border: 0.05rem solid; */
+  border: 0.05rem solid;
   display: inline-block;
   display:flex;
   justify-content: center;
@@ -158,3 +158,8 @@ a:focus {
   background-color: rgb(53, 114, 77)
 
 }
+
+/* input.lab[type="text"]:focus {
+  border: 0.2em solid black;
+  box-shadow: 0 0 0.3em 0.3em rgba(191, 183, 186, 0.5);
+} */

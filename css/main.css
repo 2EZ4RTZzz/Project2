@@ -157,12 +157,12 @@ code {
 .lab {
   background: none;
   width: 10em;
-  height: 1em;
+  height: 1.5em;
 }
 input.lab[type="text"]:hover,
 input.lab[type="text"]:focus {
   border: 0.2em solid black;
-  box-shadow: 0 0 0.3em 0.3em rgba(191, 183, 186, 0.5);
+  /* box-shadow: 0 0 0.3em 0.3em rgba(191, 183, 186, 0.5); */
 }
 
 input[type="radio"] {
@@ -195,30 +195,6 @@ input[type="radio"]:checked:before {
   background: rgb(124, 159, 137);
 }
 
-/* #flowerNav2 {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  align-items: center;
-  font-family: "MyFont";
-}
-
-#flowerNav2 a {
-  display: block;
-  width: 10em;
-  padding: 0.4em;
-  text-align: center;
-  text-decoration: none;
-  background-color: rgb(242, 216, 170);
-  color: rgb(198, 99, 112);
-}
-
-#flowerNav2 a:hover,
-a:focus {
-  background-color: rgb(255, 255, 255);
-  color: rgb(198, 99, 112);
-  border: 0.1em solid rgb(242, 216, 170);
-} */
 @media screen and (max-width: 450px) {
   #flowerNav2 {
     display: flex;
@@ -240,30 +216,6 @@ a:focus {
   }
 }
 
-/* #flowerNav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  align-items: center;
-  font-family: "MyFont";
-}
-
-#flowerNav a {
-  display: block;
-  width: 10em;
-  padding: 0.4em;
-  text-align: center;
-  text-decoration: none;
-  background-color: rgb(242, 216, 170);
-  color: rgb(198, 99, 112);
-}
-
-#flowerNav a:hover,
-a:focus {
-  background-color: rgb(255, 255, 255);
-  color: rgb(198, 99, 112);
-  border: 0.1em solid rgb(242, 216, 170);
-} */
 @media screen and (max-width: 450px) {
   #flowerNav {
     display: flex;
