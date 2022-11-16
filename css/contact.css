@@ -7,11 +7,6 @@
 
 
 
-* {
-  box-sizing: border-box;
-}
-
-
 .button-nav2:hover,
 .button-nav2:focus {
   border: 0.05rem solid;

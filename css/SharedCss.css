@@ -20,6 +20,12 @@ html {
   display: flex;
   justify-content: center;
 }
+/* header{
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+} */
 
 .Logoimage{
   position:fixed;
@@ -82,8 +88,10 @@ a:focus {
   color: rgb(32, 72, 35);
 }
 
+
+/* 暂时没用了 也是footer的 但是暂时无用 先留着 */
 /* About website page bottom */
-.container-Bottom a {
+/* .container-Bottom a {
   color: rgb(53, 114, 77);
   text-decoration: none;
 }
@@ -101,16 +109,13 @@ a:focus {
   margin-top: 2em;
   background-color: rgb(183, 200, 190,80%);
 }
-
 .container-Bottom > div:nth-of-type(1) {
-  /* display: flex; */
   justify-content: center;
   flex-direction: column;
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
 }
-
 .container-Bottom > div:nth-of-type(2) {
   display: flex;
   justify-content: center;
@@ -127,7 +132,58 @@ a:focus {
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
+} */
+
+/* Footer css */
+footer a{
+  color: rgb(53, 114, 77);
+  text-decoration: none;
 }
+
+footer a:hover{
+  color:rgb(31, 58, 42);
+  transition-property: color;
+}
+
+footer a:focus{
+  color:rgb(38, 43, 42);
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2em;
+  background-color: rgb(183, 200, 190,80%);
+}
+
+footer> section:nth-of-type(1) {
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.5rem;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+footer> section:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.5rem;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+footer> section:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.5rem;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+
 
 
 /* sub设置 4:19 11/4 */

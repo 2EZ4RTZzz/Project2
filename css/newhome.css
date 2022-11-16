@@ -48,6 +48,8 @@ body {
 .container_middle{
   display: flex;
   margin-top: 5em;
+  margin-left:10%;
+  margin-right:10%;
 }
 .container_middle img.imgMiddle{
   width: 100%;
@@ -74,6 +76,8 @@ body {
 .container_middle2{
   display: flex;
   margin-top: 5em;
+  margin-left:10%;
+  margin-right:10%;
 
 }
 .container_middle2 img.imgMiddle{
