@@ -197,7 +197,9 @@ footer> section:nth-of-type(3) {
   color: white;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  background-color: rgb(31, 58, 42);
+  /* background-color: rgb(31, 58, 42); */
+  background-color: rgb(53, 114, 77);
+
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -213,7 +215,9 @@ footer> section:nth-of-type(3) {
   color: white;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  background-color: rgb(53, 114, 77)
+  /* background-color: rgb(53, 114, 77) */
+  background-color: rgb(31, 58, 42);
+
 
 }
 
