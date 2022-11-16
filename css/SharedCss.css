@@ -50,13 +50,14 @@ html {
   text-align: center;
   text-decoration: none;
   font-size: 1.2em;
-  color: rgb(59, 69, 57);
+  color: rgb(73, 85, 71);
   padding: 0rem 1.5rem;
 }
 
 .flowerNav a:hover,
 a:focus {
-  color: rgb(143, 162, 140);
+  color: rgb(13, 48, 7);
+  text-decoration:underline;
 }
 
 /* 中部框架 */
@@ -136,7 +137,7 @@ a:focus {
 
 /* Footer css */
 footer a{
-  color: rgb(53, 114, 77);
+  color: rgb(53, 87, 67);
   text-decoration: none;
 }
 
@@ -153,7 +154,7 @@ footer{
   display: flex;
   justify-content: space-evenly;
   margin-top: 2em;
-  background-color: rgb(183, 200, 190,80%);
+  background-color: rgba(204, 212, 207, 0.8);
 }
 
 footer> section:nth-of-type(1) {
@@ -196,7 +197,7 @@ footer> section:nth-of-type(3) {
   color: white;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  background-color: rgb(124, 159, 137);
+  background-color: rgb(31, 58, 42);
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
