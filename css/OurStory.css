@@ -1,21 +1,22 @@
 
-
+@font-face {
+    font-family: "MyFont";
+    src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf)
+      format("truetype");
+  }
+  
 body{
     /* max-width:800px; */
     border:1px solid black;
     margin:auto;
-    
+ 
 }
 
 section{
     max-width:800px;
     margin:auto;
 }
-@font-face {
-    font-family: "MyFont";
-    src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf)
-      format("truetype");
-  }
+
 h1{
     font-size: 3rem;
     text-align: center;
@@ -48,16 +49,16 @@ p{
 
 
 
-header{
-    /* position: relative; */
+/* header{
+    
     border:1px solid rgb(180, 105, 105);
     font-size: 1.2rem;
     padding: 0.5rem;    
     font-weight: bold;
-}
+} */
 
 .Logoimage img{
-    width:30%;
+    width:10%;
 }
 
 

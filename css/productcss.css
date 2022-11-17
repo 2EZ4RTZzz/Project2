@@ -11,24 +11,24 @@ body{
   margin:auto;
 }
 
-h1 {
+/* h1 {
   text-align: center;
   font-weight: bold;
   font-size: 3em;
   border-top: 0.2em;
-}
+} */
 p {
   text-align: center;
 }
 
-.element {
+/* .element {
   padding-bottom: 0.2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
   border-top-color: black;
   padding-top: 1rem;
   text-align: center;
-}
+} */
 
 .button-nav3 {
   display: inline-block;
@@ -54,7 +54,7 @@ p {
 /* This code reference on W3schools*/
 .container {
   position: relative;
-  transform: scale(0.8);
+  
 }
 /* Make the image to responsive */
 .image {
@@ -63,9 +63,9 @@ p {
   height: auto;
 }
 
-.image:hover {
+/* .image:hover {
   width: 100%;
-}
+} */
 
 h3{
   font-size:1.2rem;
@@ -75,12 +75,12 @@ h3{
   position: absolute;
   /* bottom: -17px; */
   bottom: 0rem;
-  background: rgba(163, 159, 159, 0.5);
+  background: rgba(201, 198, 198, 0.8);
   width: 100%;
   transition: 1s ease;
   opacity: 0;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   height: 5rem;
   padding: 0rem;
   padding-top:2rem;
@@ -91,7 +91,7 @@ h3{
 .container:hover .overlay {
   opacity: 1;
   /* right:10%; */
-  transform: scale(1);
+  
 }
 
 .grid-container {
@@ -100,7 +100,7 @@ h3{
   grid-template-columns: repeat(4, 1fr);
 
   /* justify-content: space-between; */
-  padding: 1rem;
+  padding: 2rem;
   gap: 2rem;
   grid-column: 0.5;
 }
