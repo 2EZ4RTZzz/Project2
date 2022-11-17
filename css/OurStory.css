@@ -2,7 +2,7 @@
 
 body{
     /* max-width:800px; */
-    /* border:1px solid black; */
+    border:1px solid black;
     margin:auto;
     
 }
@@ -31,7 +31,7 @@ p{
     display: flex;
     justify-content: center;
     /* width: 100%; */
-    margin:1rem 1rem;
+    margin:1rem 0rem;
     /* border:1px solid black; */
 }
 .image>img{
@@ -44,4 +44,56 @@ p{
 
 .underlineforhere:active {
     text-decoration: underline;
+}
+
+
+
+header{
+    /* position: relative; */
+    border:1px solid rgb(180, 105, 105);
+    font-size: 1.2rem;
+    padding: 0.5rem;    
+    font-weight: bold;
+}
+
+.Logoimage img{
+    width:30%;
+}
+
+
+.flowerNav{
+    position: relative;
+    
+    border:1px solid rgb(180, 105, 105);
+    text-align: center;
+}
+
+.flowerNav a {
+    max-width: 1200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(73, 85, 71);
+    padding: 0rem 1.5rem;
+    margin:0;
+  }
+
+
+.header-logo{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    top: 1px;
+    /* right: 0px; */
+}
+
+.LogoCart{
+    position: absolute;
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    right:0%;
+    top:1%;
 }

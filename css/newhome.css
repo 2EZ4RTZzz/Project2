@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  /* border:1px solid black; */
+}
+
 @font-face {
   font-family: "MyFont";
   src: url(../css/louis_george_caf/Louis\ George\ Cafe\ Bold.ttf)
@@ -36,21 +41,12 @@ body {
 }
 
 
-.imgs {
-  width: 100%;
-  height: auto;
-}
-
-
 .imgMiddle{
   width:20%
 }
 .container_middle{
   display: flex;
   justify-content: center;
-  /* margin-top: 5em;
-  margin-left:10%;
-  margin-right:10%; */
   max-width:1800px;
   margin:auto;
   margin-top: 5em;
@@ -58,13 +54,9 @@ body {
 }
 .container_middle img.imgMiddle{
   width: 100%;
-  border:2px solid rgb(22, 15, 18);
-
 }
 .container_middle>div:nth-of-type(1){
   width: 40%;
-  /* margin-left: 8em; */
-  border:2px solid rgb(158, 32, 89);
   margin:0 1rem;
 
 }
@@ -73,9 +65,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 1.5em;
   padding-left: 1em;
-  border:2px solid rgb(32, 106, 158);
   margin:0 1rem;
 
 }
@@ -83,50 +74,39 @@ body {
 
 .container_middle2{
   display: flex;
+  justify-content: center;
   max-width:1800px;
   margin:auto;
   margin-top: 5em;
 }
 .container_middle2 img.imgMiddle{
   width: 100%;
-  /* border:2px solid rgb(22, 15, 18); */
 }
 .container_middle2>div:nth-of-type(1){
   width: 40%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  font-size: 2em;
-  margin-left: 4em;
-  
-  /* border:2px solid rgb(32, 106, 158); */
+  margin:0 1rem;
 
 }
 .container_middle2>div:nth-of-type(2){
   width: 40%;
-  padding-left: 2em;
-  /* border:2px solid rgb(158, 32, 89); */
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1em;
+  margin:0 1rem;
 }
 
 
 /* reference page  */
 /* https://codepen.io/bitstarr/pen/XjaJGz */
-.imgBox .arrow {
+.arrow {
   position: absolute;
   bottom: 10%;
-  right: 50%;
+  display:flex;
+  left:50%;
   width: 40px;
   height: 40px;
   transition:1.5s;
-  /* left:5%;
-  top:5%; */
-
-  /**
-   * Dark Arrow Down
-   */
-  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/56/Circle-icons-arrow-down.svg); */
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f6/Antu_arrow-down.svg);
   background-size: contain;
 }
@@ -154,46 +134,36 @@ body {
 html {
   scroll-behavior: smooth;
 }
-/* .flowerNav {
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 1.2em;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-}  */
 
-.Logoimage{
-  position:fixed;
-  /* position: absolute; */
-  display: block;
-  width:12%;
-  height:auto;
-  top: 5.5%;
-  left: 8%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.imgs {
+  position: static;
+  width: 100%;
+  height: auto;
 }
 
 
-/* still needs to be fix!***************** 2022/11/3 23:09 WYY */
-.flowerNav {
+header{
   position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  display: flex;
+  border:1px solid black;
+  display:flex;
   justify-content: center;
-  margin-top: 3em;
-} 
+  max-width:1200px;
+  margin:auto;
+  margin-top: 2rem;
+  left:3rem;
+  right:3rem;
+}
+
+
+.Logoimage{
+  position: absolute;
+  left: 0;
+  width:10%;
+  display: block;
+  height:auto;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 .flowerNav a {
   text-align: center;
@@ -208,6 +178,26 @@ a:focus {
   color: rgb(13, 48, 7);
   text-decoration:underline;
 }
+
+
+/* still needs to be fix!***************** 2022/11/3 23:09 WYY */
+/* .flowerNav {
+  border:1px solid black;
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin:auto;
+  margin-top:3em;
+}  */
+
+
+
 
 /* Footer css */
 footer a{

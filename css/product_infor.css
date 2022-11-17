@@ -201,3 +201,8 @@ h2 {
 .quantity.buttons_added .plus:focus {
   outline: none;
 }
+
+
+p{
+  font-size:1.2em;
+}

@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  border:1px solid black;
+  /* border:1px solid black; */
 }
 
 .line{
@@ -20,30 +20,38 @@ html {
   display: flex;
   justify-content: center;
 }
-/* header{
-  z-index: 1;
+header{
+  z-index: 999;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
-} */
+  top: 0rem;
+  background-color:rgb(252, 209, 224);
 
-.Logoimage{
-  position:fixed;
-  /* position: absolute; */
-  display: block;
-  width:12%;
-  height:auto;
-  top: 5%;
-  left: 8%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  z-index:1;
-}
-
-.flowerNav {
   display: flex;
   justify-content: center;
-  margin-top: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  display:flex;
+  justify-content: center;
+  /* max-width:2000px; */
+  margin:auto;
+}
+
+
+
+
+.Logoimage{
+  /* position:fixed; */
+  position: absolute;
+  display: block;
+  width:6%;
+  height:auto;
+  top: 10%;
+  left: 8%;
+  transform: translate(-20%, -10%);
+  -ms-transform: translate(-50%, -50%);
+  z-index:999;
 }
 
 .flowerNav a {
@@ -73,16 +81,15 @@ body {
 /* 底部框架 */
 /* a font */
 a {
-  color: rgb(65, 156, 100);
+  color: rgb(0, 0, 0);
   transition-property: color;
   text-decoration: none;
-  transition-duration: 0.5s;
 }
 
 a:hover {
-  color: rgb(32, 72, 35);
+  color: rgb(0, 0, 0);
   transition-property: color;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:focus {

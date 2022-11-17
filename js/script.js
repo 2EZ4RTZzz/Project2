@@ -30,3 +30,8 @@ function myFunction3() {
 function myFunction4() {
   alert("Successfully added to cart");
 }
+
+// hide the menus.
+function showMenu(){
+  document.querySelector(".header-bottom").classList.toggle("showMenuStyle");
+}

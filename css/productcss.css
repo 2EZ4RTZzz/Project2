@@ -37,7 +37,7 @@ p {
   text-align: center;
   margin-top: 1rem;
   color: white;
-  background-color: rgb(124, 159, 137);
+  background-color: rgb(58, 102, 74);
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -45,17 +45,15 @@ p {
 
 .button-nav3:hover,
 .button-nav3:focus {
-  /* border: 0.05rem solid; */
   border: 0rem solid;
   color: white;
-  background-color: rgb(49, 62, 54)
+  background-color: rgb(35, 49, 41);
+  text-decoration: none;
 }
 
 /* This code reference on W3schools*/
 .container {
   position: relative;
-  /* width: 100%; */
-  /* padding: 1rem; */
   transform: scale(0.8);
 }
 /* Make the image to responsive */
@@ -77,9 +75,9 @@ h3{
   position: absolute;
   /* bottom: -17px; */
   bottom: 0rem;
-  background: rgb(0, 0, 0, 0.5);
+  background: rgba(163, 159, 159, 0.5);
   width: 100%;
-  transition: 2.5s ease;
+  transition: 1s ease;
   opacity: 0;
   color: white;
   font-size: 1.5rem;
