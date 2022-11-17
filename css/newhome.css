@@ -170,9 +170,9 @@ html {
   position:fixed;
   /* position: absolute; */
   display: block;
-  width:6%;
+  width:12%;
   height:auto;
-  top: 3.5%;
+  top: 5.5%;
   left: 8%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
