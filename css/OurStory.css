@@ -1,15 +1,22 @@
 
+
+body{
+    max-width:800px;
+    /* border:1px solid black; */
+    margin:auto;
+    
+    
+}
+@font-face {
+    font-family: "MyFont";
+    src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf)
+      format("truetype");
+  }
 h1{
     font-size: 3rem;
     text-align: center;
     margin-top: 5rem;
-}
-body{
-    max-width:800px;
-    border:1px solid black;
-    margin:auto;
-    padding:2rem;
-}
+}  
 p{
     /* max-width:50em; */
     margin:auto;
@@ -18,14 +25,14 @@ p{
     /* margin-left: auto;
     margin-right: auto; */
     text-align: left;
-    padding-top: 1.5rem;
+    
 }
 .image{
     display: flex;
     justify-content: center;
     /* width: 100%; */
-    margin:auto;
-    border:1px solid black;
+    margin:1rem 1rem;
+    /* border:1px solid black; */
 }
 .image>img{
     width:100%;

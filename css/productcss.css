@@ -6,6 +6,10 @@
     format("truetype");
 }
 
+body{
+  /* border:1px solid black; */
+  margin:auto;
+}
 
 h1 {
   text-align: center;
