@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  /* border:1px solid black; */
+  border:1px solid black;
 }
 
 .line{
@@ -66,8 +66,8 @@ a:focus {
 body {
   font-family: "MyFont";
   background-color: rgb(209, 231, 188, 0.2);
-  margin-bottom: 4rem;
-  margin: 0%;
+  /* margin-bottom: 4rem;
+  margin: 0%; */
 }
 
 /* 底部框架 */
@@ -153,38 +153,36 @@ footer a:focus{
 footer{
   display: flex;
   justify-content: space-evenly;
+
   margin-top: 2em;
   background-color: rgba(204, 212, 207, 0.8);
 }
 
 footer> section:nth-of-type(1) {
-  /* display: flex; */
-  justify-content: center;
-  flex-direction: column;
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
 }
 
+footer a{
+  display:block;
+}
+
 footer> section:nth-of-type(2) {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
 }
 
 footer> section:nth-of-type(3) {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
 }
 
 
+/* @media 的时候flex-direction: column; */
+/* footer的flex dir 改column */
 
 
 /* sub设置 4:19 11/4 */
