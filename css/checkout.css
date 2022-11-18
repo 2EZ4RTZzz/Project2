@@ -70,10 +70,9 @@ h1 {
   width: 33em;
   height: 1em;
 }
-
-input [type="text"] {
+input[type="text"],
+textarea {
   font-family: "MyFont";
-  font-size: large;
 }
 .container {
   margin: 2rem;
@@ -198,7 +197,7 @@ input [type="text"] {
   /* border-radius:0px; */
   font-size:19px;
   font-size:1.2rem;
-  color:#fff;
+  color:white;
   cursor:pointer;
   position:absolute;
   bottom:25px;
@@ -247,7 +246,7 @@ input [type="text"] {
   background:rgb(104, 142, 69);
   height:100%;
   width:80%;
-  color:#eee;
+  /* color:#eee; */
   -webkit-box-pack:center;
   -webkit-justify-content:center;
       -ms-flex-pack:center;
