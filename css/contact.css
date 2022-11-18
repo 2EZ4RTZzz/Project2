@@ -30,7 +30,8 @@ body{
 
 /* Style the container/contact section */
 .container {
-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1800px;
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   border: 1rem;
   margin-top: 5rem;
