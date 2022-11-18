@@ -229,7 +229,7 @@ ul li:hover {
 }
 .dropdown-select {
   position:absolute;
-  background:#77aaee;
+  background:rgb(104, 142, 69);
   text-align:left;
   box-shadow:0px 3px 5px 0px rgba(0,0,0,0.1);
   border-bottom-right-radius:5px;
@@ -316,6 +316,7 @@ ul li:hover {
 }
 .pay-btn {
   border:none;
+  font-family: "MyFont";
   background:rgb(53, 114, 77);
   line-height:2em;
   border-radius:10px;
