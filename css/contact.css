@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "MyFont";
   src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf)
@@ -15,7 +14,6 @@
   background-color: rgb(49, 62, 54)
 }
 
-/* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -24,26 +22,22 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-
 body{
   margin: auto;
 }
-section>:nth-of-type(1){
-  max-width: 800px;
-  margin: auto;
-  margin-top:4rem;
-}
-/* Style the container/contact section */
 .container {
+  max-width: 1800px;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   border: 1rem;
   margin-top: 5rem;
+  margin-left:20%;
   padding: 1.4rem;
-  width: 80%;
+  width: 60%;
+
 }
 
-/* Create two columns that float next to eachother */
+
 .column {
   float: left;
   width: 50%;
@@ -51,17 +45,16 @@ section>:nth-of-type(1){
   padding: 20px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 800px) {
   .column, input[type=submit] {
-    width: 100%;
+    width: 90%;
     margin-top: 0;
   }
 }
