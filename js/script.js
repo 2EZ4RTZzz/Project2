@@ -33,5 +33,6 @@ function myFunction4() {
 
 // hide the menus.
 function showMenu(){
-  document.querySelector(".header-bottom").classList.toggle("showMenuStyle");
+  // alert("123");
+  document.querySelector(".flowerNav").classList.toggle("showMenuStyle");
 }

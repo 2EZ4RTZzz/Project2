@@ -46,6 +46,7 @@ body {
 }
 .container_middle{
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
   max-width:1800px;
   margin:auto;
@@ -102,8 +103,7 @@ body {
 .arrow {
   position: absolute;
   bottom: 10%;
-  display:flex;
-  left:50%;
+  left:48%;
   width: 40px;
   height: 40px;
   transition:1.5s;
@@ -180,6 +180,11 @@ a:focus {
 }
 
 
+#hero{
+  position: relative;
+}
+
+
 /* still needs to be fix!***************** 2022/11/3 23:09 WYY */
 /* .flowerNav {
   border:1px solid black;
@@ -223,6 +228,7 @@ footer{
 }
 
 footer> section:nth-of-type(1) {
+  text-align: center;
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
@@ -230,15 +236,18 @@ footer> section:nth-of-type(1) {
 
 footer a{
   display:block;
+
 }
 
 footer> section:nth-of-type(2) {
+  text-align: center;
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
 }
 
 footer> section:nth-of-type(3) {
+  text-align: center;
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
@@ -259,6 +268,9 @@ footer> section:nth-of-type(3) {
     color:rgb(38, 43, 42);
   }
   
+  .arrow{
+    display:none;
+  }
   footer{
     display: flex;
     justify-content: space-evenly;

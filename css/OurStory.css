@@ -31,9 +31,7 @@ p{
 .image{
     display: flex;
     justify-content: center;
-    /* width: 100%; */
     margin:1rem 0rem;
-    /* border:1px solid black; */
 }
 .image>img{
     width:100%;
@@ -49,52 +47,136 @@ p{
 
 
 
-/* header{
-    
+header{
+    z-index: 999;
+    position: -webkit-sticky;
+    position: sticky;   
+    top: 0rem;
+    background-color:rgb(231, 152, 56);
     border:1px solid rgb(180, 105, 105);
     font-size: 1.2rem;
     padding: 0.5rem;    
     font-weight: bold;
-} */
-
-.Logoimage img{
-    width:10%;
+    display:flex;
+    justify-content: space-between;
 }
 
+.Logoimage img{
+    width:100%;
+    max-width:150px;
+    min-width:100px;
+}
+
+.header-logo{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: gray; */
+    border:1px solid rgb(187, 6, 6);
+    width:20%;
+}
+
+.LogoCart{
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    right:0%;
+    top:1%;
+}
+.header-cart{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    width:20%;
+    border:1px solid rgb(180, 105, 105);
+}
 
 .flowerNav{
-    position: relative;
-    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     border:1px solid rgb(180, 105, 105);
     text-align: center;
 }
 
 .flowerNav a {
+    /* display:inline-block; */
+    border:1px solid rgb(180, 105, 105);
     max-width: 1200px;
     text-align: center;
     text-decoration: none;
     font-size: 1.2em;
     color: rgb(73, 85, 71);
     padding: 0rem 1.5rem;
-    margin:0;
+    /* margin-top:0.5em; */
   }
 
 
-.header-logo{
-    position: absolute;
-    display:flex;
-    justify-content: space-between;
-    top: 1px;
-    /* right: 0px; */
+.fa-solid{
+    color:rgb(212, 219, 112);
+    font-size:2em;
+    margin: 0 0.5em;
 }
 
-.LogoCart{
-    position: absolute;
-    display: inline-block;
-    margin: 0 0.5rem;
-    font-size: 0.8rem;
-    padding: 0.5rem;
-    font-weight: bold;
-    right:0%;
-    top:1%;
+.mobile-menu{
+    display:none;
+}
+
+@media screen and (max-width:850px){
+    .flowerNav{
+        order:3;
+        flex-direction: column;
+        width:100vw;
+        padding: 0.5em 0em;
+        display:none;
+    }
+
+    .flowerNav a {
+        margin:0.1em 0em;
+        display:block;
+        border-bottom:1px solid rgb(184, 182, 182);
+    }
+    .mobile-menu{
+        border:1px solid rgb(180, 105, 105);
+        display:block;
+        width:3em;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-bars{
+        border:1px solid rgb(180, 105, 105);
+    }
+    .header-logo{
+        order:1;
+        width:40%;
+    }
+    .header-cart{
+        order:2;
+        width:40%;
+    }
+
+    header{
+        flex-wrap: wrap;
+    }
+
+    @keyframes showMenuAnimation {
+        0%{height:0;}
+        100%{height:100%};
+    } 
+
+    .showMenuStyle{
+        display:block;
+        animation: showMenuAnimation;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+    }
+}
+
+#main{
+    border:1px solid rgb(180, 105, 105);
+    padding:0.5em;
 }
