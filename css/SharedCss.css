@@ -6,6 +6,7 @@
 }
 /* body */
 body {
+  margin:0;
   font-family: "MyFont";
   background-color: rgb(209, 231, 188, 0.2);
 }
@@ -14,11 +15,7 @@ body {
   /* border:1px solid   black; */
 }
 
-.line {
-  /* border-top: 0.5px solid rgb(241, 214, 214); */
-}
-
-/* header 框架 */
+/* header */
 html {
   scroll-behavior: smooth;
 }
@@ -300,3 +297,12 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+
+#orderConfrimed{
+  /* border:1px solid   black; */
+  text-align: center;
+  margin:auto;
+  margin-top:12rem;
+  margin-bottom:12rem;
+}
+
