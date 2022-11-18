@@ -126,7 +126,7 @@ textarea {
   width:100%;
 }
 .half-input-table td:first-of-type {
-  border-right:10px solid rgb(209, 231, 188, 0.2);
+  border-right:10px solid rgb(209, 231, 188, 0.0);
   width:50%;
 }
 .window {
