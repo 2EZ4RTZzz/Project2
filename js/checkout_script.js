@@ -30,7 +30,7 @@ window.onclick = function(e) {
       document.getElementById('current-card').innerHTML = 'American Express';      
     }
     else if (e.target.innerHTML === 'Visa') {
-         document.getElementById('credit-card-image').src = 'https://dl.dropboxusercontent.com/s/ubamyu6mzov5c80/visa_logo%20%281%29.png';
+         document.getElementById('credit-card-image').src = 'https://www.freepnglogos.com/uploads/visa-card-logo-9.png';
           activeDropdown.classList.remove('visible');
       activeDropdown = null;
       e.target.innerHTML = document.getElementById('current-card').innerHTML;
