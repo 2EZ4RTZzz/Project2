@@ -102,7 +102,7 @@ body {
 /* https://codepen.io/bitstarr/pen/XjaJGz */
 .arrow {
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left:48%;
   width: 40px;
   height: 40px;
@@ -115,6 +115,31 @@ body {
   animation: bounce 2s infinite;
 }
 
+#hero{
+  position: relative;
+}
+
+/* .left_text{
+  position: absolute;
+  top:28%;
+  color:white;
+  left:2%;
+  width:400px;
+}
+
+@media screen and (max-width:1500px){
+  .inside_text{
+    font-size:1.2em;
+    width:45%;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .inside_text{
+    font-size:1.4em;
+    width:40%;
+  }
+} */
 @keyframes bounce {
   0%,
   20%,
@@ -142,90 +167,24 @@ html {
 }
 
 
-header{
-  position: absolute;
-  border:1px solid black;
-  display:flex;
-  justify-content: center;
-  max-width:1200px;
-  margin:auto;
-  margin-top: 2rem;
-  left:3rem;
-  right:3rem;
-}
-
-
-.Logoimage{
-  position: absolute;
-  left: 0;
-  width:10%;
-  display: block;
-  height:auto;
-  transform: translate(-25%, -25%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.left-text{
-  position:absolute;
-  bottom: 10%;
-  left:48%;
-}
-
-.flowerNav a {
-  text-align: center;
-  text-decoration: none;
-  font-size: 1.2em;
-  color: rgb(68, 80, 66);
-  padding: 0rem 1.5rem;
-}
-
-.flowerNav a:hover,
-a:focus {
-  color: rgb(13, 48, 7);
-  text-decoration:underline;
-}
-
-
-#hero{
-  position: relative;
-}
-
-
-/* still needs to be fix!***************** 2022/11/3 23:09 WYY */
-/* .flowerNav {
-  border:1px solid black;
-  position: fixed;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  margin:auto;
-  margin-top:3em;
-}  */
-
-
-
 
 /* Footer css */
-footer a{
+footer a {
   color: rgb(53, 87, 67);
   text-decoration: none;
+  display: block;
 }
 
-footer a:hover{
-  color:rgb(31, 58, 42);
+footer a:hover {
+  color: rgb(31, 58, 42);
   transition-property: color;
 }
 
-footer a:focus{
-  color:rgb(38, 43, 42);
+footer a:focus {
+  color: rgb(38, 43, 42);
 }
 
-footer{
+footer {
   display: flex;
   justify-content: space-evenly;
 
@@ -233,78 +192,110 @@ footer{
   background-color: rgba(204, 212, 207, 0.8);
 }
 
-footer> section:nth-of-type(1) {
+footer > section:nth-of-type(1) {
   text-align: center;
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
 }
 
-footer a{
-  display:block;
-
-}
-
-footer> section:nth-of-type(2) {
-  text-align: center;
+footer > section:nth-of-type(2) {
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
+  text-align: center;
 }
 
-footer> section:nth-of-type(3) {
-  text-align: center;
+footer > section:nth-of-type(3) {
   padding: 2.5rem;
   font-size: 1.3em;
   line-height: 2em;
+  text-align: center;
 }
 
-@media screen and (max-width:800px) {
-  footer a{
+@media screen and (max-width: 800px) {
+  footer a {
     color: rgb(53, 87, 67);
     text-decoration: none;
   }
-  
-  footer a:hover{
-    color:rgb(31, 58, 42);
+
+  footer a:hover {
+    color: rgb(31, 58, 42);
     transition-property: color;
   }
-  
-  footer a:focus{
-    color:rgb(38, 43, 42);
+
+  footer a:focus {
+    color: rgb(38, 43, 42);
   }
-  
-  .arrow{
-    display:none;
-  }
-  footer{
+
+  footer {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-  
+
     margin-top: 2em;
     background-color: rgba(204, 212, 207, 0.8);
   }
-  
-  footer> section:nth-of-type(1) {
+
+  footer > section:nth-of-type(1) {
     padding: 2.5rem;
     font-size: 1.3em;
     line-height: 2em;
   }
-  
-  footer a{
-    display:block;
+
+  footer a {
+    display: block;
   }
-  
-  footer> section:nth-of-type(2) {
+
+  footer > section:nth-of-type(2) {
     padding: 2.5rem;
     font-size: 1.3em;
     line-height: 2em;
   }
-  
-  footer> section:nth-of-type(3) {
+
+  footer > section:nth-of-type(3) {
     padding: 2.5rem;
     font-size: 1.3em;
     line-height: 2em;
   }
+}
+
+.button-nav2 {
+  border: 0.05rem solid;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(53, 114, 77);
+
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav2:hover {
+  /* border: 0.05rem solid; */
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  /* background-color: rgb(53, 114, 77) */
+  background-color: rgb(31, 58, 42);
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }

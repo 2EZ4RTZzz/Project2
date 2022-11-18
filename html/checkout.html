@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" href="../css/checkout.css" rel="stylesheet">
     <link type="text/css" href="../css/SharedCss.css" rel="stylesheet">
-    <script src="../js/script.js"></script>
 </head>
 
 <body>
     <header>
-        <div>
-            <a href="../index.html"> <img class="Logoimage" src="../image/LogoImg.png" alt="This is a logo"></a>
+        <div class="header-logo">
+            <div class="mobile-menu">
+                <a href="#" onclick="showMenu()"><i class="fa-solid fa-bars"></i></a>
+            </div>
+
+            <div class="Logoimage">
+                <a href="../index.html"> <img src="../image/LogoImg.png" alt="This is a logo"></a>
+            </div>
         </div>
 
         <nav class="flowerNav">
@@ -23,6 +28,13 @@
             <a href="ContactUs.html">Contact us</a>
             <a href="style_guide.html">Style guide</a>
         </nav>
+
+        <div class="header-cart">
+            <div class="LogoCart">
+                <a href="../html/checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+
     </header>
 
     <section>
@@ -40,18 +52,18 @@
                                     </td>
                                     <td>
                                         <br> <span class='thin'>ab-Jab the Marble Queen Pothos</span>
-                                        <br>Small<br> 
+                                        <br>Small<br>
                                         <!-- <span class='thin small'> Color: Grey/Orange, Size:
                                             10.5<br><br></span> -->
-                                            <div>
-                                                <label for="flowerNumber">Plant Quality</label>
-                                                <select name="flower" id="flowerNumber">
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
+                                        <div>
+                                            <label for="flowerNumber">Plant Quality</label>
+                                            <select name="flower" id="flowerNumber">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                        </div>
                                     </td>
 
                                 </tr>
@@ -73,7 +85,7 @@
                                     <td>
                                         <br> <span class='thin'>Open media 1 in gallery view
                                             Nala the Cat Palm</span>
-                                        <br>XL<br> 
+                                        <br>XL<br>
                                         <div>
                                             <label for="flowerNumber">Plant Quality</label>
                                             <select name="flower" id="flowerNumber">
@@ -101,7 +113,7 @@
                                     </td>
                                     <td>
                                         <br> <span class='thin'>Pablo the Mexican Fence Post Cactus</span>
-                                        <br>XL<br>           
+                                        <br>XL<br>
                                         <div>
                                             <label for="flowerNumber">Plant Quality</label>
                                             <select name="flower" id="flowerNumber">
@@ -202,7 +214,8 @@
             <a href="OurStory.html">Our Story</a>
             <a href="https://www.instagram.com/secretccino/?igshid=YmMyMTA2M2Y%3D">Instagram</a>
             <a href="https://www.facebook.com/groups/866946150394713">Facebook</a>
-            <a href="http://www.xiaohongshu.com/discovery/item/6017dcf5000000000100bd0b?source=question">Little Red Book</a>
+            <a href="http://www.xiaohongshu.com/discovery/item/6017dcf5000000000100bd0b?source=question">Little Red
+                Book</a>
         </section>
 
         <section>
@@ -212,9 +225,10 @@
             <a href="Privacy_Policy.html">Privacy Policy</a>
             <a href="Terms.html">Terms of service</a>
         </section>
-</footer>
-
-<script src="../js/checkout_script.js"></script>
+    </footer>
+    <script src="https://kit.fontawesome.com/453e4b626a.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/checkout_script.js"></script>
 </body>
 
 </html>

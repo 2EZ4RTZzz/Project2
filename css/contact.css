@@ -24,21 +24,23 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+
 body{
   margin: auto;
 }
-
+section>:nth-of-type(1){
+  max-width: 800px;
+  margin: auto;
+  margin-top:4rem;
+}
 /* Style the container/contact section */
 .container {
-  max-width: 1800px;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   border: 1rem;
   margin-top: 5rem;
-  margin-left:20%;
   padding: 1.4rem;
-  width: 60%;
-
+  width: 80%;
 }
 
 /* Create two columns that float next to eachother */
@@ -59,7 +61,7 @@ body{
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .column, input[type=submit] {
-    width: 90%;
+    width: 100%;
     margin-top: 0;
   }
 }
