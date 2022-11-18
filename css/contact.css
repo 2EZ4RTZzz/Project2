@@ -3,7 +3,9 @@
   src: url(../css/Josefin_Sans/JosefinSans-VariableFont_wght.ttf)
     format("truetype");
 }
-
+body {
+  margin: auto;
+}
 .button-nav2:hover,
 .button-nav2:focus {
   border: 0.05rem solid;
@@ -15,6 +17,7 @@
 input[type="text"],
 select,
 textarea {
+  font-family: "MyFont";
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -22,14 +25,16 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-body {
-  margin: auto;
+.img_alt{
+  display: block;
+  width: 100%;
+  height: auto;
+  
 }
 .container {
   max-width: 1800px;
   margin-top:5em;
   height:100%;
-
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   border: 1rem;

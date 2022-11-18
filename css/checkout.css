@@ -71,6 +71,10 @@ h1 {
   height: 1em;
 }
 
+input [type="text"] {
+  font-family: "MyFont";
+  font-size: large;
+}
 .container {
   margin: 2rem;
   margin-top:5em;
@@ -98,18 +102,7 @@ h1 {
 .dropdown {
   position:relative;
 }
-ul {
-  margin:0;
-  padding:0;
-}
-ul li {
-  list-style:none;
-  padding-left:10px;
-  cursor:pointer;
-}
-ul li:hover {
-  background:rgba(255,255,255,0.1);
-}
+
 .dropdown-select {
   position:absolute;
   background:rgb(104, 142, 69);
@@ -220,6 +213,7 @@ ul li:hover {
 
 }
 
+
 .total {
   margin-top:25px;
   font-size:20px;
@@ -314,6 +308,8 @@ ul li:hover {
   display:flex;
   width:100%;
 }
+
+
 @media screen and (max-width: 800px) {
   .window {
     width: 100%;

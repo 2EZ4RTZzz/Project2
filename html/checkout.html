@@ -168,20 +168,25 @@
                         </table>
                         <img src='https://dl.dropboxusercontent.com/s/ubamyu6mzov5c80/visa_logo%20%281%29.png'
                             height='80' class='credit-card-image' id='credit-card-image'></img>
-                        Card Number
-                        <input class='input-field'></input>
-                        Card Holder
-                        <input class='input-field'></input>
+                        <form action="input">
+                        <label>Card Number</label>
+                        <input type="text" name="card_number" placeholder="Card Number"></input>
+                        <label>Card Holder</label>
+                        <input type="text" name="card_holder" placeholder="Card Holder"></input>
+
                         <table class='half-input-table'>
                             <tr>
-                                <td> Expires
-                                    <input class='input-field'></input>
+                                <td>
+                                    <label>Expires</label>
+                                    <input type="text" name="expires" placeholder="Date"></input>
                                 </td>
-                                <td>CVC
-                                    <input class='input-field'></input>
+                                <td>
+                                    <label>CVC</label>
+                                    <input type="text" name="cvc" placeholder="CVC"></input>
                                 </td>
                             </tr>
                         </table>
+                        </form>
                         <button class='pay-btn'>Checkout</button>
 
                     </div>
