@@ -4,17 +4,17 @@
     format("truetype");
 }
 
-
-
 .button-nav2:hover,
 .button-nav2:focus {
   border: 0.05rem solid;
 
   color: white;
-  background-color: rgb(49, 62, 54)
+  background-color: rgb(49, 62, 54);
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -22,21 +22,22 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-body{
+body {
   margin: auto;
 }
 .container {
   max-width: 1800px;
+  margin-top:5em;
+  height:100%;
+
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   border: 1rem;
   margin-top: 5rem;
-  margin-left:20%;
+  margin-left: 20%;
   padding: 1.4rem;
   width: 60%;
-
 }
-
 
 .column {
   float: left;
@@ -51,9 +52,9 @@ body{
   clear: both;
 }
 
-
 @media screen and (max-width: 800px) {
-  .column, input[type=submit] {
+  .column,
+  input[type="submit"] {
     width: 90%;
     margin-top: 0;
   }
