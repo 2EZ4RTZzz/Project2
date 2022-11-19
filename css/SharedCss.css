@@ -107,6 +107,8 @@ header {
     width: 100vw;
     padding: 0.5em 0em;
     display: none;
+    text-align: left;
+ 
   }
 
   .flowerNav a {
@@ -133,14 +135,12 @@ header {
     flex-wrap: wrap;
   }
 
-  @keyframes showMenuAnimation {
+  /* @keyframes showMenuAnimation {
     0% {
       height: 0vh;
-      /* opacity: 0; */
     }
     100% {
       height: 17vh;
-      /* opacity: 1; */
     }
   }
 
@@ -149,7 +149,20 @@ header {
     animation: showMenuAnimation;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+} */
+
+@keyframes showMenuAnimation{
+  0% {height: 0;}
+  100% {height: 17vh}
 }
+
+.showMenuStyle{
+  display: block;
+  animation: showMenuAnimation;
+  /* animation-duration: 1.5s; */
+  animation-fill-mode: forwards;
+}
+
 }
 
 /* a font */
@@ -308,3 +321,7 @@ textarea {
   margin-bottom:12rem;
 }
 
+.CitationLink{
+  text-align: left;
+  margin:auto;
+}
