@@ -29,6 +29,7 @@ textarea {
   display: block;
   width: 100%;
   height: auto;
+
   
 }
 .container {
@@ -60,7 +61,14 @@ textarea {
 @media screen and (max-width: 800px) {
   .column,
   input[type="submit"] {
-    width: 90%;
+    width: 100%;
     margin-top: 0;
   }
+
+  .container{
+    margin: 5rem auto;
+    width: 80%;
+  }
+
+
 }
