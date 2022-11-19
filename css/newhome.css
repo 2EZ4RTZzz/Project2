@@ -13,6 +13,18 @@
   font-family: "MyFont";
 }
 
+h1{
+  font-size: 3.5em;
+  line-height: 1.2;
+
+}
+
+p{
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+
 body {
   font-family: "MyFont";
   background-color: rgb(209, 231, 188, 0.2);
