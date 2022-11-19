@@ -75,6 +75,7 @@ header {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  /* background-color: rgb(255, 102, 0) */
 }
 
 .flowerNav a {
@@ -152,14 +153,17 @@ header {
 } */
 
 @keyframes showMenuAnimation{
-  0% {height: 0;}
-  100% {height: 17vh}
+  0% {height: 2vh;
+}
+  100% {height: 17vh;
+}
 }
 
 .showMenuStyle{
   display: block;
+  overflow:hidden;
   animation: showMenuAnimation;
-  /* animation-duration: 1.5s; */
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
 
