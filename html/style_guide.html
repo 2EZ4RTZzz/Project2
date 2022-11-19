@@ -6,18 +6,18 @@
   <meta charset="utf-8">
   <title>P02 - Style Guide Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" href="../css/SharedCss.css" rel="stylesheet">
   <link type="text/css" href="../css/main.css" rel="stylesheet">
+
+  <!-- <link type="text/css" href="../css/SharedCss.css" rel="stylesheet" /> -->
 
 </head>
 
 <body>
 
   <header>
-    <h1 style="color: rgb(198, 99, 112);">P02 - Style Guide Template</h1>
-    <p>A template you can use to start building out your own style guides with.</p>
+    <h1>P02 - Style Guide Template</h1>
   </header>
-
-
 
 
 
@@ -89,7 +89,8 @@
       <h4>Rendered element:</h4>
       <form>
         <label for="yname">Flower name:</label><br>
-        <input class="lab" type="text" id="yname" name="input" /><br>
+        <input type="text" name="card_number" placeholder="input this field..">
+
       </form>
       <h4>Sample code:</h4>
       <code>&lt;label for="yname"&gt;Flower name: &lt;/label&gt;&lt;br&gt;
@@ -135,7 +136,13 @@
       <p>.overlay</p>
       <h4>Rendered element:</h4>
       <div class="container">
-        <a href=""> <img class="image" alt="image" src="../image/product.jpeg"></a>
+        <div>
+          <a href="product_information.html"> <img class="image" src="../image/plant1.jpg"
+                  alt="this a plant image"></a>
+      </div>
+      <div class="overlay"><a href="product_information.html" alt="a plante name">Fresh Plant</a></div>
+  </div>
+
         <div class="overlay">Fresh Flower</div>
 
       </div>
@@ -198,16 +205,18 @@
   <section id="combined_elements">
     <h2>Combined Elements</h2>
 
-    <section class="element">
+    <section>
       <h3>Main Navigation</h3>
-      <nav>
-        <div class="flowerNav">
-          <a href="../html/productlist.html">Plants</a>
-          <a href="../html/OurStory.html">Our Story</a>
-          <a href="../html/checkout.html">Checkout</a>
-          <a href="../html/ContactUs.html">Contact us</a>
-        </div>
-      </nav>
+      <nav class="flowerNav">
+        <a href="productlist.html">Plants</a>
+        <a href="OurStory.html">Our Story</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="ContactUs.html">Contact us</a>
+    </nav>
+
+    <div class="header-cart">
+        <div class="LogoCart"> <a href="../html/checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+      </div>
 
     </section>
 
@@ -217,66 +226,167 @@
 
     </section>
 
-    <h3>Payment Form</h3>
+    <h3>Chekout & Payment Form</h3>
 
-    <section class="element">
-      <div class="pay-container">
-        <div class="card">
-          <div class="col-12">
-            <div class="text">
-              <p>Name on Card</p>
-              <input class="form-control" type="text" placeholder="Name">
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="text">
-              <p>Card Number</p>
-              <input class="form-control" type="text" placeholder="1234 5678 435678">
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="text">
-              <p>Expiry date</p>
-              <input class="form-control" type="text" placeholder="MM/YYYY">
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="text">
-              <p>CVV/CVC</p>
-              <input class="form-control " type="password" placeholder="***">
-            </div>
-          </div>
-          <div class="col-12">
-            <a class="button-nav2" href="#">Confirm Payment</a><br>
+    <!-- <section class="element"> -->
+      <section>
+        <div class='container'>
+            <div class='window'>
+                <div class='order-info'>
+                    <div class='order-info-content'>
+                        <h2>Order Summary</h2>
+                        <div class='line'></div>
+                        <table class='order-table'>
+                            <tbody>
+                                <tr>
+                                    <td><img src='../image/plant3.jpg' class='full-width'
+                                            alt="product image in checkout">
+                                    </td>
+                                    <td>
+                                        <br> <span class='thin'>ab-Jab the Marble Queen Pothos</span>
+                                        <br>Small<br>
+                                        <!-- <span class='thin small'> Color: Grey/Orange, Size:
+                                            10.5<br><br></span> -->
+                                        <div>
+                                            <label for="flowerNumber">Plant Quality</label>
+                                            <select name="flower" id="flowerNumber">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                        </div>
+                                    </td>
 
-          </div>
-        </div>
-      </div>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class='price'><span>$59</span></div>
+                                    </td>
+                                </tr>
+                            </tbody>
 
+                        </table>
+                        <div class='line'></div>
+                        <table class='order-table'>
+                            <tbody>
+                                <tr>
+                                    <td><img src='../image/plant4.jpg' class='full-width'
+                                            alt="product image in checkout">
+                                    </td>
+                                    <td>
+                                        <br> <span class='thin'>Open media 1 in gallery view
+                                            Nala the Cat Palm</span>
+                                        <br>XL<br>
+                                        <div>
+                                            <label for="flowerNumber2">Plant Quality</label>
+                                            <select name="flower" id="flowerNumber2">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class='price'>$89</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class='line'></div>
+                        <table class='order-table'>
+                            <tbody>
+                                <tr>
+                                    <td><img src='../image/plant7.jpg' class='full-width'
+                                            alt="product image in checkout">
+                                    </td>
+                                    <td>
+                                        <br> <span class='thin'>Pablo the Mexican Fence Post Cactus</span>
+                                        <br>XL<br>
+                                        <div>
+                                            <label for="flowerNumber3">Plant Quality</label>
+                                            <select name="flower" id="flowerNumber3">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                        </div>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class='price'>$179</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class='line'></div>
+                        <div class='total'>
+                            <span style='float:left;'>
+                                <div class='thin dense'>Tax 12%</div>
+                                <div class='thin dense'>Delivery</div>
+                                Total
+                            </span>
+                            <span style='float:right; text-align:right;'>
+                                <div class='thin dense'>$68.75</div>
+                                <div class='thin dense'>$4.95</div>
+                                $435.55</span>
+                            </p$435.55<>
+                        </div>
+                    </div>
+                </div>
+                <div class='credit-info'>
+                    <div class='credit-info-content'>
+                        <table class='half-input-table'>
+                            <tr>
+                                <td>Please select your card: </td>
+                                <td>
+                                    <div class='dropdown' id='card-dropdown'>
+                                        <div class='dropdown-btn' id='current-card'>Visa</div>
+                                        <div class='dropdown-select'>
+                                            <ul>
+                                                <li>Master Card</li>
+                                                <li>American Express</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- <img src='https://dl.dropboxusercontent.com/s/ubamyu6mzov5c80/visa_logo%20%281%29.png' -->
+                        <img src='https://www.freepnglogos.com/uploads/visa-card-logo-9.png' alt="flower picture" height='80' class='credit-card-image' id='credit-card-image'>
+                        <!-- </img> -->
+                        <form action="text">
+                            <label>Card Number</label>
+                            <input type="text" name="card_number" placeholder="Your card number..">
+                            <label>Card Holder</label>
+                            <input type="text" name="card_holder" placeholder="Cardholder name..">
+
+                            <table class='half-input-table'>
+                                <tr>
+                                    <td>
+                                        <label>Expires</label>
+                                        <input type="text" name="expires" placeholder="xx/xx">
+                                    </td>
+                                    <td>
+                                        <label>CVC</label>
+                                        <input type="text" name="cvc" placeholder="***">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                        <div>
+                        <a class="button-nav2" href="../html/orderconfirmation.html">Submit</a>
+                                </div>
+                    </div>
 
     </section>
-    <!-- <form>
-        <label for="name">Name:</label><br>
-        <input class="lab" type="text" id="name" name="input"><br>
-        <label for="address">Address:</label><br>
-        <input class="lab" type="text" id="address" name="input"><br>
-        <label for="card_number">Card Number:</label><br>
-        <input class="lab" type="text" id="card_number" name="input"><br>
-        <label for="cvv">CVV:</label><br>
-        <input class="lab" type="text" id="cvv" name="input"><br>
-      </form>
 
-      <label>Choose your Payment Form: </label>
-
-      <input type="radio" name="paymenttype" id="visa" checked="checked" />
-      <label for="visa">Visa</label>
-
-      <input type="radio" name="paymenttype" id="paypal" />
-      <label for="paypal">Paypal</label>
-
-      <input type="radio" name="paymenttype" id="mastercard" />
-      <label for="mastercard">Mastercard</label><br>
-      <a class="button-nav2" href="#">Confirm Your Payment</a> -->
     <h4>Sample code:</h4>
 
     <code>
@@ -305,8 +415,8 @@
 
   <section class="element">
     <h3>Checkout Cart</h3>
-    <a class="button-nav2" href="../html/checkout.html">Click to the link</a>
-  </section>
+    <!-- <a class="button-nav2" href="../html/checkout.html">Click to the link</a>
+  </section> -->
   <!-- // COMBINED ELEMENTS SECTION -->
   <section id="company">
     <h2>Basic branding ideas for company.</h2>
@@ -350,10 +460,11 @@
 
     </ul>
 
-
   </section>
 
-
+    <script src="https://kit.fontawesome.com/453e4b626a.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/checkout_script.js"></script>
 
 </body>
 
